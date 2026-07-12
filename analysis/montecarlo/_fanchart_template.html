@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kicktipp - Monte-Carlo Fan Chart</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+  onload="renderMathInElement(document.body,{delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}]});"></script>
+<style>
+  :root{
+    --bg:#0d1117; --panel:#131a24; --panel2:#0f151d; --ink:#c9d1d9; --muted:#7d8794;
+    --grid:#1f2a37; --accent:#2dd4bf; --teal:#2dd4bf; --median:#e6edf3;
+    --realised:#ff4d4f; --gold:#f5c451; --orange:#f0883e; --slate:#6b7a8f;
+    --line:#223; --chip:#1b2430; --chipon:#243447;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font:13px/1.5 ui-monospace,"SF Mono",Menlo,Consolas,monospace;-webkit-font-smoothing:antialiased}
+  header{padding:18px 22px 8px}
+  h1{font-size:18px;margin:0;font-weight:600;letter-spacing:.3px}
+  .sub{color:var(--muted);font-size:12px;margin-top:3px;max-width:980px}
+  .controls{display:flex;flex-wrap:wrap;gap:14px 22px;align-items:flex-end;
+    padding:12px 22px;background:var(--panel2);border-top:1px solid var(--line);
+    border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+  .ctl{display:flex;flex-direction:column;gap:5px}
+  .ctl label{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.5px}
+  .seg{display:flex;border:1px solid var(--line);border-radius:6px;overflow:hidden}
+  .seg button{background:var(--chip);color:var(--ink);border:0;padding:5px 10px;cursor:pointer;
+    font:inherit;border-right:1px solid var(--line)}
+  .seg button:last-child{border-right:0}
+  .seg button.on{background:var(--chipon);color:var(--accent);font-weight:600}
+  .toggles{display:flex;flex-wrap:wrap;gap:4px 12px;max-width:430px}
+  .toggles label{display:flex;align-items:center;gap:5px;color:var(--ink);
+    text-transform:none;letter-spacing:0;cursor:pointer}
+  input[type=range]{width:150px;accent-color:var(--accent)}
+  .zwrap.dim{opacity:.35;pointer-events:none}
+  .main{display:grid;grid-template-columns:minmax(0,1fr) 360px;gap:16px;padding:16px 22px 4px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+  .card h2{font-size:12px;margin:0 0 8px;color:var(--muted);text-transform:uppercase;letter-spacing:.6px;font-weight:600}
+  #fan{width:100%;height:460px;display:block}
+  #hist{width:100%;height:200px;display:block}
+  .readout{display:grid;grid-template-columns:1fr 1fr;gap:6px 14px;font-size:12px}
+  .readout .k{color:var(--muted)} .readout .v{text-align:right;color:var(--ink)}
+  .readout .v.pos{color:var(--accent)} .readout .v.neg{color:var(--realised)}
+  .headline{margin-top:10px;padding:10px;background:var(--panel2);border-left:3px solid var(--accent);
+    border-radius:4px;font-size:12px;color:var(--ink)}
+  .legend{display:flex;flex-wrap:wrap;gap:10px 16px;margin-top:8px;font-size:11px;color:var(--muted)}
+  .legend span{display:inline-flex;align-items:center;gap:5px}
+  .sw{width:14px;height:3px;border-radius:2px;display:inline-block}
+  .katex-block{margin:6px 0;font-size:13px}
+  footer{padding:10px 22px 30px;color:var(--muted);font-size:11px}
+  footer pre{background:var(--panel2);border:1px solid var(--line);border-radius:8px;
+    padding:12px;color:var(--ink);overflow:auto;white-space:pre;font-size:11px}
+  .lr{background:var(--panel2);border-left:3px solid var(--gold);border-radius:4px;padding:10px;margin-top:10px;font-size:12px}
+  .note{max-width:1000px;margin-top:8px}
+  b.acc{color:var(--accent)} b.red{color:var(--realised)} b.gold{color:var(--gold)}
+</style>
+</head>
+<body>
+<header>
+  <h1>Kicktipp - Monte-Carlo Fan Chart <span style="color:var(--muted);font-weight:400">· variance dominates the edge</span></h1>
+  <div class="sub">The whole tournament (104 matches) re-simulated thousands of times. The percentile bands
+  show the cloud of cumulative-points paths; the <b class="red">red</b> line is the
+  actually-realised path. Even a rational EV-max strategy has a wide fan - and a negative
+  relative P10. A teaching tool, not a flattering one.</div>
+</header>
+
+<div class="controls">
+  <div class="ctl"><label>tracked player</label>
+    <div class="seg" id="seg-player"></div></div>
+  <div class="ctl"><label>strategy</label>
+    <div class="seg" id="seg-strategy">
+      <button data-v="evmax" class="on">EV-max</button>
+      <button data-v="rank_relative">rank-relative</button>
+      <button data-v="contrarian">contrarian (p10)</button>
+    </div></div>
+  <div class="ctl"><label>regime</label>
+    <div class="seg" id="seg-regime">
+      <button data-v="counterfactual" class="on">counterfactual-pure</button>
+      <button data-v="hybrid">hybrid-anchored</button>
+    </div></div>
+  <div class="ctl"><label>horizon</label>
+    <div class="seg" id="seg-horizon">
+      <button data-v="full" class="on">tournament (104)</button>
+      <button data-v="group">groups (72)</button>
+    </div></div>
+  <div class="ctl zwrap" id="zwrap"><label>z_chase (switch threshold) · <span id="zval">1.0</span></label>
+    <input type="range" id="zc" min="0" max="3" step="1" value="1"></div>
+  <div class="ctl"><label>spaghetti lines shown · <span id="spagval">80</span></label>
+    <input type="range" id="spag" min="0" max="120" step="5" value="80"></div>
+  <div class="ctl"><label>layers shown</label>
+    <div class="toggles" id="toggles">
+      <label><input type="checkbox" data-k="b5" checked> P5-95</label>
+      <label><input type="checkbox" data-k="b10" checked> P10-90</label>
+      <label><input type="checkbox" data-k="b25" checked> P25-75</label>
+      <label><input type="checkbox" data-k="med" checked> median</label>
+      <label><input type="checkbox" data-k="spag" checked> spaghetti</label>
+      <label><input type="checkbox" data-k="riv" checked> rivals</label>
+      <label><input type="checkbox" data-k="real" checked> realised path</label>
+    </div></div>
+</div>
+
+<div class="main">
+  <div class="card">
+    <h2>Panel 1 - cumulative points (percentile fan)</h2>
+    <canvas id="fan"></canvas>
+    <div class="legend">
+      <span><i class="sw" style="background:var(--teal);opacity:.5"></i>P5/10/25-75/90/95 bands</span>
+      <span><i class="sw" style="background:var(--median)"></i>median</span>
+      <span><i class="sw" style="background:var(--gold)"></i>leader</span>
+      <span><i class="sw" style="background:var(--orange)"></i>top-3 boundary</span>
+      <span><i class="sw" style="background:var(--slate)"></i>field median / bottom-3</span>
+      <span><i class="sw" style="background:var(--realised);height:4px"></i><b class="red">actually-realised path</b></span>
+    </div>
+  </div>
+  <div>
+    <div class="card">
+      <h2>Statistical readout - final points</h2>
+      <div class="readout" id="readout"></div>
+      <div class="headline" id="headline"></div>
+    </div>
+    <div class="card" style="margin-top:16px">
+      <h2>Panel 2 - final-rank distribution</h2>
+      <canvas id="hist"></canvas>
+    </div>
+    <div class="lr" id="lr"></div>
+  </div>
+</div>
+
+<footer>
+  <div class="card" style="background:transparent;border:0;padding:0">
+    <div id="formulas">
+      <div class="katex-block">$$z=\dfrac{D}{\sqrt{n_{\text{rem}}}\,\sigma},\quad \sigma\approx 1.53,\qquad
+        P(\text{rattraper})\approx \Phi\!\left(-z/\sqrt2\right)$$</div>
+      <div class="note">$\mathbb{E}[\text{pts}]$ = Monte-Carlo mean (the option's "expected payoff");
+        the band width $P_{90}-P_{10}$ swamps the median relative edge.</div>
+    </div>
+    <pre id="optext"></pre>
+    <div class="note">Method notes: EV-max plays the EV-max bet on matches with real odds and is
+      <i>edge-free</i> on future generative matches (reproduces <code>rank_sim._sim_future_correlated</code>,
+      no phantom compounded edge). Knockout legs drop the 90' draw (approximation).
+      The rank-relative strategy is a <b>qualitative proxy</b> of <code>choose_pick</code> (regime, not probability).
+      Rivals = field order statistics (self excluded). Data pre-computed in Python; no browser recompute.</div>
+  </div>
+</footer>
+
+<script>
+const DATA = /*__FANCHART_DATA__*/;
+const M = DATA.meta, CH = DATA.charts, REAL = DATA.realised;
+const TARGET = M.target, NP = M.n_players, GS = M.group_stage_matches, ZSTOPS = M.z_stops;
+const state = {player:M.me_player, strategy:'evmax', regime:'counterfactual', horizon:'full', zc:1.0,
+  spag:80, b5:true,b10:true,b25:true,med:true,spagOn:true,riv:true,real:true};
+
+function key(){
+  const tail = state.strategy==='rank_relative'
+    ? `rank_relative|${state.regime}|${state.horizon}|${state.zc.toFixed(1)}`
+    : `${state.strategy}|${state.regime}|${state.horizon}|na`;
+  return `${state.player}|${tail}`;
+}
+function chart(){ return CH[key()]; }
+function RE(){ return REAL[state.player]; }
+
+// tracked-player buttons (populated from meta: self + current leader)
+{
+  const seg=document.getElementById('seg-player');
+  M.players_tracked.forEach((p,i)=>{
+    const b=document.createElement('button'); b.dataset.v=p; b.textContent=p;
+    if(i===0)b.classList.add('on'); seg.appendChild(b);
+  });
+}
+
+// ── segmented controls ──
+function wireSeg(id, field, after){
+  document.querySelectorAll(`#${id} button`).forEach(b=>b.onclick=()=>{
+    document.querySelectorAll(`#${id} button`).forEach(x=>x.classList.remove('on'));
+    b.classList.add('on'); state[field]=b.dataset.v; (after&&after()); draw();
+  });
+}
+wireSeg('seg-player','player');
+wireSeg('seg-strategy','strategy',()=>{
+  document.getElementById('zwrap').classList.toggle('dim', state.strategy!=='rank_relative');
+});
+wireSeg('seg-regime','regime'); wireSeg('seg-horizon','horizon');
+document.getElementById('zwrap').classList.add('dim'); // EV-max by default
+
+const zc=document.getElementById('zc');
+zc.oninput=()=>{ state.zc=ZSTOPS[+zc.value]; document.getElementById('zval').textContent=state.zc.toFixed(1); draw(); };
+const spag=document.getElementById('spag');
+spag.oninput=()=>{ state.spag=+spag.value; document.getElementById('spagval').textContent=state.spag; draw(); };
+document.querySelectorAll('#toggles input').forEach(c=>c.onchange=()=>{
+  const map={b5:'b5',b10:'b10',b25:'b25',med:'med',spag:'spagOn',riv:'riv',real:'real'};
+  state[map[c.dataset.k]]=c.checked; draw();
+});
+
+// ── canvas helpers ──
+function fitCanvas(cv){
+  const dpr=window.devicePixelRatio||1, w=cv.clientWidth, h=cv.clientHeight;
+  cv.width=w*dpr; cv.height=h*dpr; const ctx=cv.getContext('2d');
+  ctx.setTransform(dpr,0,0,dpr,0,0); return {ctx,w,h};
+}
+function poly(ctx,xs,a,b){ // ribbon between arrays a (forward) and b (back)
+  ctx.beginPath();
+  for(let i=0;i<a.length;i++){const [x,y]=xs(i,a[i]); i?ctx.lineTo(x,y):ctx.moveTo(x,y);}
+  for(let i=b.length-1;i>=0;i--){const [x,y]=xs(i,b[i]); ctx.lineTo(x,y);}
+  ctx.closePath(); ctx.fill();
+}
+function line(ctx,xs,arr,opt){
+  ctx.save(); ctx.strokeStyle=opt.c; ctx.lineWidth=opt.w||1.2;
+  if(opt.dash)ctx.setLineDash(opt.dash); ctx.globalAlpha=opt.a==null?1:opt.a;
+  ctx.beginPath();
+  for(let i=0;i<arr.length;i++){const [x,y]=xs(i,arr[i]); i?ctx.lineTo(x,y):ctx.moveTo(x,y);}
+  ctx.stroke(); ctx.restore();
+}
+
+// ── Panel 1 ──
+function drawFan(){
+  const c=chart(), H=c.horizon, {ctx,w,h}=fitCanvas(document.getElementById('fan'));
+  const ML=44,MR=14,MT=12,MB=26;
+  const B=c.bands, re=RE();
+  let maxY=Math.max(...B['95'], c.rivals.leader[H-1], ...(re.cum.length?re.cum:[0]));
+  maxY=Math.ceil(maxY/20)*20||20;
+  const xs=(i,v)=>[ML+i*(w-ML-MR)/(H-1), (h-MB)-v*(h-MT-MB)/maxY];
+  ctx.clearRect(0,0,w,h);
+  // gridlines
+  ctx.strokeStyle=getCSS('--grid'); ctx.fillStyle=getCSS('--muted'); ctx.lineWidth=1; ctx.font='10px monospace';
+  for(let g=0;g<=maxY;g+=Math.max(20,Math.round(maxY/8/20)*20)){
+    const [,y]=xs(0,g); ctx.beginPath(); ctx.moveTo(ML,y); ctx.lineTo(w-MR,y); ctx.stroke();
+    ctx.fillText(g,6,y+3);
+  }
+  for(let mx=0;mx<H;mx+=(H>80?12:8)){ const [x]=xs(mx,0); ctx.fillText(mx, x-4, h-10); }
+  // spaghetti (faint, behind)
+  if(state.spagOn && state.spag>0){
+    ctx.save(); ctx.strokeStyle=getCSS('--teal'); ctx.globalAlpha=0.05; ctx.lineWidth=0.7;
+    for(let s=0;s<Math.min(state.spag,c.spaghetti.length);s++){
+      const p=c.spaghetti[s]; ctx.beginPath();
+      for(let i=0;i<H;i++){const [x,y]=xs(i,p[i]); i?ctx.lineTo(x,y):ctx.moveTo(x,y);} ctx.stroke();
+    } ctx.restore();
+  }
+  // nested ribbons
+  ctx.fillStyle=getCSS('--teal');
+  if(state.b5){ ctx.globalAlpha=0.10; poly(ctx,xs,B['5'],B['95']); }
+  if(state.b10){ ctx.globalAlpha=0.14; poly(ctx,xs,B['10'],B['90']); }
+  if(state.b25){ ctx.globalAlpha=0.20; poly(ctx,xs,B['25'],B['75']); }
+  ctx.globalAlpha=1;
+  if(state.med) line(ctx,xs,B['50'],{c:getCSS('--median'),w:1.6});
+  // rivals
+  if(state.riv){
+    line(ctx,xs,c.rivals.leader,{c:getCSS('--gold'),w:1,a:.8});
+    line(ctx,xs,c.rivals['top'+TARGET+'_boundary'],{c:getCSS('--orange'),w:1,a:.8,dash:[5,3]});
+    line(ctx,xs,c.rivals.field_median,{c:getCSS('--slate'),w:1,a:.7,dash:[5,3]});
+    line(ctx,xs,c.rivals['bottom'+TARGET+'_boundary'],{c:getCSS('--slate'),w:1,a:.5,dash:[2,3]});
+  }
+  // markers: today (16), group/ko boundary (72) if full
+  ctx.save(); ctx.setLineDash([3,3]); ctx.strokeStyle=getCSS('--muted'); ctx.globalAlpha=.6; ctx.fillStyle=getCSS('--muted');
+  const today=re.index.length; const [tx]=xs(today,0);
+  ctx.beginPath(); ctx.moveTo(tx,MT); ctx.lineTo(tx,h-MB); ctx.stroke(); ctx.fillText("today",tx+3,MT+10);
+  if(H>GS){ const [gx]=xs(GS,0); ctx.beginPath(); ctx.moveTo(gx,MT); ctx.lineTo(gx,h-MB); ctx.stroke(); ctx.fillText("KO",gx+3,MT+10); }
+  ctx.restore();
+  // realised RED bold, on top. Label names the player + their REAL play-style, so it
+  // can't be misread as a contrarian path (or as p10) under a non-matching fan.
+  if(state.real && re.cum.length){
+    line(ctx,xs,re.cum,{c:getCSS('--realised'),w:3});
+    const [ex,ey]=xs(re.index.length-1,re.cum[re.cum.length-1]);
+    ctx.fillStyle=getCSS('--realised'); ctx.font='11px monospace';
+    const lbl=`actually-realised path · ${state.player} (real ≈ ${re.style})`;
+    ctx.fillText(lbl,Math.min(ex+6,w-ctx.measureText(lbl).width-8),ey-6);
+    ctx.beginPath(); ctx.arc(ex,ey,3,0,7); ctx.fill();
+  }
+  ctx.strokeStyle=getCSS('--line'); ctx.strokeRect(ML,MT,w-ML-MR,h-MT-MB);
+}
+
+// ── Panel 2 - rank histogram ──
+function drawHist(){
+  const c=chart(), {ctx,w,h}=fitCanvas(document.getElementById('hist'));
+  const ML=30,MR=10,MT=10,MB=20, rd=c.rank_dist, n=rd.length;
+  const maxP=Math.max(...rd)||1; ctx.clearRect(0,0,w,h);
+  const bw=(w-ML-MR)/n;
+  for(let k=0;k<n;k++){
+    const x=ML+k*bw, bh=(rd[k]/maxP)*(h-MT-MB), y=(h-MB)-bh;
+    ctx.fillStyle = (k<TARGET)? getCSS('--accent') : getCSS('--slate');
+    ctx.globalAlpha = (k<TARGET)?0.95:0.55; ctx.fillRect(x+2,y,bw-4,bh); ctx.globalAlpha=1;
+    ctx.fillStyle=getCSS('--muted'); ctx.font='9px monospace'; ctx.fillText(k+1, x+bw/2-3, h-8);
+  }
+  // realised-so-far rank marker (tracked player)
+  const rr=RE().rank_so_far; const mx=ML+(rr-0.5)*bw;
+  ctx.save(); ctx.strokeStyle=getCSS('--realised'); ctx.fillStyle=getCSS('--realised'); ctx.lineWidth=1.5;
+  ctx.beginPath(); ctx.moveTo(mx,MT); ctx.lineTo(mx,h-MB); ctx.stroke();
+  ctx.font='10px monospace'; ctx.fillText('current rank '+rr, Math.min(mx+4,w-90), MT+10); ctx.restore();
+  ctx.fillStyle=getCSS('--accent'); ctx.font='11px monospace';
+  ctx.fillText('P(top'+TARGET+')='+(c.p_top*100).toFixed(1)+'%', ML+4, MT+10);
+}
+
+// ── readout + headline + leader regression ──
+function drawReadout(){
+  const c=chart(), s=c.spread;
+  const row=(k,v,cls)=>`<div class="k">${k}</div><div class="v ${cls||''}">${v}</div>`;
+  document.getElementById('readout').innerHTML =
+    row('mean (E[pts])', s.mean.toFixed(1)) +
+    row('P10 / P50 / P90', `${s.p10|0} / ${s.p50|0} / ${s.p90|0}`) +
+    row('width P90-P10', s.spread.toFixed(0)+' pts') +
+    row('relative edge (med.)', (s.rel_edge>=0?'+':'')+s.rel_edge.toFixed(0)+' pts', s.rel_edge>=0?'pos':'neg') +
+    row('relative band P10->P90', `${s.rel_p10>=0?'+':''}${s.rel_p10.toFixed(0)} -> ${s.rel_p90>=0?'+':''}${s.rel_p90.toFixed(0)}`) +
+    row('P(top'+TARGET+') / P(gagne)', (c.p_top*100).toFixed(1)+'% / '+(c.p_win*100).toFixed(2)+'%') +
+    row('median rank', s.median_rank.toFixed(0));
+  const ratio = Math.abs(s.rel_edge)<0.5? '∞' : (s.rel_band/Math.abs(s.rel_edge)).toFixed(0);
+  document.getElementById('headline').innerHTML =
+    `Median relative edge <b class="acc">${s.rel_edge>=0?'+':''}${s.rel_edge.toFixed(0)} pts</b>, `+
+    `but relative band <b>${s.rel_band.toFixed(0)} pts</b> (P10 ${s.rel_p10.toFixed(0)}). `+
+    (s.rel_p10<0?`<b class="red">relative P10 < 0</b> -> we finish below the field median >10% of the time. `:'')+
+    `Variance swamps the edge ~<b>${ratio}:1</b>.`;
+  const lr=M.leader_regression;
+  document.getElementById('lr').innerHTML =
+    `<b class="gold">Regression of a p10-type leader.</b> ${lr.leader} leads at <b>${lr.start_points|0} pts</b> `+
+    `(rank ${lr.start_rank}) today, but its "total fade" strategy projects a median finish of `+
+    `<b>${lr.proj_median|0} pts</b> (P10 ${lr.proj_p10|0} / P90 ${lr.proj_p90|0}), median rank <b>${lr.proj_median_rank|0}</b>, `+
+    `P(top${TARGET}) <b>${(lr.proj_p_top*100).toFixed(1)}%</b> -> the lead is a P99 path regressing toward a -EV median.`;
+}
+document.getElementById('optext').textContent = M.option_pricing_text;
+
+function getCSS(v){ return getComputedStyle(document.documentElement).getPropertyValue(v).trim(); }
+function draw(){ drawFan(); drawHist(); drawReadout(); }
+window.addEventListener('resize', ()=>{ drawFan(); drawHist(); });
+draw();
+</script>
+</body>
+</html>

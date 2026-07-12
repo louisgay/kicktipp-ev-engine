@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head><title>pool - Prediction Centre</title></head>
+<body>
+<div id="kicktipp-content">
+  <h1 class="headline">Prediction Centre</h1>
+  <div class="prevnextTitle">
+    <span class="prevnextTitle">Matchday 1</span>
+  </div>
+  <!-- Navigation tabs -->
+  <ul class="nav nav-tabs">
+    <li class="active"><a href="/demo-pool/tippabgabe?spieltagIndex=1">Matchday 1</a></li>
+    <li><a href="/demo-pool/tippabgabe?spieltagIndex=2">Matchday 2</a></li>
+    <li><a href="/demo-pool/bonustipps">Bonus</a></li>
+  </ul>
+
+  <form method="post" action="/demo-pool/tippabgabe">
+    <input type="hidden" name="spieltagIndex" value="1"/>
+    <table class="nttable tippabgabe">
+      <thead>
+        <tr>
+          <th class="col1">Date</th>
+          <th class="col2"></th>
+          <th class="col3">Home</th>
+          <th class="col4"></th>
+          <th class="col5">Away</th>
+          <th class="col6">Result</th>
+          <th class="col7">Prediction</th>
+          <th class="kicktipp-wettquote">1</th>
+          <th class="kicktipp-wettquote">X</th>
+          <th class="kicktipp-wettquote">2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Match 1: Mexico vs South Africa -->
+        <tr class="odd" id="match_1234001">
+          <td class="col1">11/06/26 20:00</td>
+          <td class="col2"><span class="flags"><img src="/res/image/flags/mx.gif" alt="Mexico"/></span></td>
+          <td class="col3">Mexico</td>
+          <td class="col4">-</td>
+          <td class="col5">South Africa</td>
+          <td class="col6">---</td>
+          <td class="col7">
+            <input type="text" name="tip_1234001_heimTipp" value="" size="2" maxlength="2"/>
+            :
+            <input type="text" name="tip_1234001_gastTipp" value="" size="2" maxlength="2"/>
+          </td>
+          <td class="kicktipp-wettquote">1.53</td>
+          <td class="kicktipp-wettquote">4.30</td>
+          <td class="kicktipp-wettquote">6.10</td>
+        </tr>
+        <!-- Match 2: USA vs Fiji -->
+        <tr class="even" id="match_1234002">
+          <td class="col1">11/06/26 23:00</td>
+          <td class="col2"><span class="flags"><img src="/res/image/flags/us.gif" alt="USA"/></span></td>
+          <td class="col3">USA</td>
+          <td class="col4">-</td>
+          <td class="col5">Fiji</td>
+          <td class="col6">---</td>
+          <td class="col7">
+            <input type="text" name="tip_1234002_heimTipp" value="" size="2" maxlength="2"/>
+            :
+            <input type="text" name="tip_1234002_gastTipp" value="" size="2" maxlength="2"/>
+          </td>
+          <td class="kicktipp-wettquote">1.09</td>
+          <td class="kicktipp-wettquote">9.50</td>
+          <td class="kicktipp-wettquote">28.00</td>
+        </tr>
+        <!-- Match 3: Argentina vs Morocco -->
+        <tr class="odd" id="match_1234003">
+          <td class="col1">12/06/26 17:00</td>
+          <td class="col2"><span class="flags"><img src="/res/image/flags/ar.gif" alt="Argentina"/></span></td>
+          <td class="col3">Argentina</td>
+          <td class="col4">-</td>
+          <td class="col5">Morocco</td>
+          <td class="col6">---</td>
+          <td class="col7">
+            <input type="text" name="tip_1234003_heimTipp" value="" size="2" maxlength="2"/>
+            :
+            <input type="text" name="tip_1234003_gastTipp" value="" size="2" maxlength="2"/>
+          </td>
+          <td class="kicktipp-wettquote">1.35</td>
+          <td class="kicktipp-wettquote">5.00</td>
+          <td class="kicktipp-wettquote">8.50</td>
+        </tr>
+        <!-- Match 4: France vs Colombia -->
+        <tr class="even" id="match_1234004">
+          <td class="col1">12/06/26 17:00</td>
+          <td class="col2"><span class="flags"><img src="/res/image/flags/fr.gif" alt="France"/></span></td>
+          <td class="col3">France</td>
+          <td class="col4">-</td>
+          <td class="col5">Colombia</td>
+          <td class="col6">---</td>
+          <td class="col7">
+            <input type="text" name="tip_1234004_heimTipp" value="" size="2" maxlength="2"/>
+            :
+            <input type="text" name="tip_1234004_gastTipp" value="" size="2" maxlength="2"/>
+          </td>
+          <td class="kicktipp-wettquote">1.75</td>
+          <td class="kicktipp-wettquote">3.80</td>
+          <td class="kicktipp-wettquote">4.60</td>
+        </tr>
+        <!-- Match 5: Germany vs Japan -->
+        <tr class="odd" id="match_1234005">
+          <td class="col1">12/06/26 20:00</td>
+          <td class="col2"><span class="flags"><img src="/res/image/flags/de.gif" alt="Germany"/></span></td>
+          <td class="col3">Germany</td>
+          <td class="col4">-</td>
+          <td class="col5">Japan</td>
+          <td class="col6">---</td>
+          <td class="col7">
+            <input type="text" name="tip_1234005_heimTipp" value="" size="2" maxlength="2"/>
+            :
+            <input type="text" name="tip_1234005_gastTipp" value="" size="2" maxlength="2"/>
+          </td>
+          <td class="kicktipp-wettquote">1.60</td>
+          <td class="kicktipp-wettquote">4.00</td>
+          <td class="kicktipp-wettquote">5.50</td>
+        </tr>
+        <!-- Match 6: Spain vs Ecuador -->
+        <tr class="even" id="match_1234006">
+          <td class="col1">12/06/26 20:00</td>
+          <td class="col2"><span class="flags"><img src="/res/image/flags/es.gif" alt="Spain"/></span></td>
+          <td class="col3">Spain</td>
+          <td class="col4">-</td>
+          <td class="col5">Ecuador</td>
+          <td class="col6">---</td>
+          <td class="col7">
+            <input type="text" name="tip_1234006_heimTipp" value="" size="2" maxlength="2"/>
+            :
+            <input type="text" name="tip_1234006_gastTipp" value="" size="2" maxlength="2"/>
+          </td>
+          <td class="kicktipp-wettquote">1.42</td>
+          <td class="kicktipp-wettquote">4.80</td>
+          <td class="kicktipp-wettquote">7.00</td>
+        </tr>
+        <!-- Match 7: England vs Denmark -->
+        <tr class="odd" id="match_1234007">
+          <td class="col1">12/06/26 23:00</td>
+          <td class="col2"><span class="flags"><img src="/res/image/flags/gb-eng.gif" alt="England"/></span></td>
+          <td class="col3">England</td>
+          <td class="col4">-</td>
+          <td class="col5">Denmark</td>
+          <td class="col6">---</td>
+          <td class="col7">
+            <input type="text" name="tip_1234007_heimTipp" value="" size="2" maxlength="2"/>
+            :
+            <input type="text" name="tip_1234007_gastTipp" value="" size="2" maxlength="2"/>
+          </td>
+          <td class="kicktipp-wettquote">1.55</td>
+          <td class="kicktipp-wettquote">4.10</td>
+          <td class="kicktipp-wettquote">5.80</td>
+        </tr>
+        <!-- Match 8: Brazil vs Serbia -->
+        <tr class="even" id="match_1234008">
+          <td class="col1">12/06/26 23:00</td>
+          <td class="col2"><span class="flags"><img src="/res/image/flags/br.gif" alt="Brazil"/></span></td>
+          <td class="col3">Brazil</td>
+          <td class="col4">-</td>
+          <td class="col5">Serbia</td>
+          <td class="col6">---</td>
+          <td class="col7">
+            <input type="text" name="tip_1234008_heimTipp" value="" size="2" maxlength="2"/>
+            :
+            <input type="text" name="tip_1234008_gastTipp" value="" size="2" maxlength="2"/>
+          </td>
+          <td class="kicktipp-wettquote">1.45</td>
+          <td class="kicktipp-wettquote">4.50</td>
+          <td class="kicktipp-wettquote">7.50</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="formbar">
+      <input type="submit" name="submitbutton" value="Save predictions" class="btn"/>
+    </div>
+  </form>
+</div>
+</body>
+</html>

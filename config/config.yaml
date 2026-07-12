@@ -1,0 +1,51 @@
+# ──────────────────────────────────────────────
+# kicktipp-ev-engine configuration
+# ──────────────────────────────────────────────
+
+paths:
+  raw_data: data/raw
+  processed_data: data/processed
+
+# Data sources
+sources:
+  martj42:
+    base_url: https://raw.githubusercontent.com/martj42/international_results/master
+    files:
+      - results.csv
+      - shootouts.csv
+      - goalscorers.csv
+  elo:
+    # World Football Elo Ratings (national teams)
+    url: https://www.eloratings.net
+
+# Model parameters
+model:
+  # Score grid upper bound (0..max_goals inclusive)
+  max_goals: 8
+  # Dixon-Coles time-weighting half-life in days
+  half_life_days: 1095  # ~3 years
+  # Training window: only use matches after this date
+  train_start: "2010-01-01"
+  # Draw-calibration blend: weight on sharp 1X2 vs kicktipp 1X2 (0 = pure kicktipp).
+  # 0.65 leans toward the better-calibrated sharp odds (see src/calibration.py).
+  blend_weight: 0.65
+
+# Opponent field model (hierarchical partial-pooling pick predictor)
+field_model:
+  follow_prior_strength: 5   # k in own-data weight n/(n+k) for tendency-follow
+  exact_prior_strength: 3    # k for the exact-score scatter
+
+# Backtest
+backtest:
+  # Cutoff: train on everything before this date
+  cutoff_date: "2022-11-20"  # WC 2022 start
+  # Tournament to evaluate
+  tournament: "FIFA World Cup"
+  tournament_year: 2022
+
+# Scoring (pool rules)
+scoring:
+  exact: 4
+  goal_diff: 3   # correct winner + correct goal difference
+  tendency: 2     # correct winner only
+  wrong: 0

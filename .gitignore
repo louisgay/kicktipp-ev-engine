@@ -1,0 +1,46 @@
+# ── Secrets (never commit) ───────────────────────────────────────────
+.env
+*.env
+!.env.example          # the template IS committed (variable names only, no values)
+**/.env
+*session*
+*token*
+# De-identification map (maps pseudonyms back to real names) — must never ship.
+pseudonym_map*.json
+
+# ── Data ─────────────────────────────────────────────────────────────
+# Raw downloads & scraped HTML are regenerable (python -m src.data.download),
+# and third-party bookmaker odds are not redistributed — so ignore the lot.
+# The pseudonymised, tracked datasets live under data/opponents/ and
+# data/history/ and are committed explicitly (see data/README.md).
+data/raw/
+data/processed/
+data/opponents/snapshots/   # leaderboard HTML — embeds internal member IDs
+data/exports/               # dated runtime export cards (regenerable)
+
+# ── Python ───────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyc
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.pytest_cache/
+
+# ── Generated analysis artifacts (rebuild via `python -m analysis.<mod>.generate`) ──
+analysis/montecarlo/fanchart.html
+analysis/montecarlo/fanchart_data.json
+analysis/standings/standings.html
+analysis/standings/standings_data.json
+
+# ── Jupyter ──────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── IDE / OS ─────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db

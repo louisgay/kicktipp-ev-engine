@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head><title>pool - Bonus Predictions</title></head>
+<body>
+<div id="kicktipp-content">
+  <h1 class="headline">Prediction Centre</h1>
+  <div class="prevnextTitle">
+    <span class="prevnextTitle">Bonus</span>
+  </div>
+  <ul class="nav nav-tabs">
+    <li><a href="/demo-pool/tippabgabe?spieltagIndex=1">Matchday 1</a></li>
+    <li><a href="/demo-pool/tippabgabe?spieltagIndex=2">Matchday 2</a></li>
+    <li class="active"><a href="/demo-pool/bonustipps">Bonus</a></li>
+  </ul>
+
+  <form method="post" action="/demo-pool/bonustipps">
+    <table class="nttable bonustipps">
+      <tbody>
+        <!-- Bonus Question 1: World Champion -->
+        <tr class="odd" id="bonus_100001">
+          <td class="col1">
+            <span class="bonusfrage">Which team will be World Champion?</span>
+            <br/>
+            <span class="bonusdeadline">Deadline: 11/06/2026 20:00</span>
+          </td>
+          <td class="col2">
+            <select name="bonus_100001">
+              <option value="">-- Select --</option>
+              <option value="1">Argentina</option>
+              <option value="2">Australia</option>
+              <option value="3">Austria</option>
+              <option value="4">Belgium</option>
+              <option value="5">Bolivia</option>
+              <option value="6">Brazil</option>
+              <option value="7">Cameroon</option>
+              <option value="8">Canada</option>
+              <option value="9">Chile</option>
+              <option value="10">China</option>
+              <option value="11">Colombia</option>
+              <option value="12">Croatia</option>
+              <option value="13">Denmark</option>
+              <option value="14">DR Congo</option>
+              <option value="15">Ecuador</option>
+              <option value="16">Egypt</option>
+              <option value="17">England</option>
+              <option value="18">France</option>
+              <option value="19">Germany</option>
+              <option value="20">Hungary</option>
+              <option value="21">Indonesia</option>
+              <option value="22">Iran</option>
+              <option value="23">Iraq</option>
+              <option value="24">Italy</option>
+              <option value="25">Ivory Coast</option>
+              <option value="26">Japan</option>
+              <option value="27">Jordan</option>
+              <option value="28">Mali</option>
+              <option value="29">Mexico</option>
+              <option value="30">Morocco</option>
+              <option value="31">Netherlands</option>
+              <option value="32">New Zealand</option>
+              <option value="33">Nigeria</option>
+              <option value="34">Paraguay</option>
+              <option value="35">Peru</option>
+              <option value="36">Portugal</option>
+              <option value="37">Qatar</option>
+              <option value="38">Saudi Arabia</option>
+              <option value="39">Scotland</option>
+              <option value="40">Senegal</option>
+              <option value="41">Serbia</option>
+              <option value="42">Slovenia</option>
+              <option value="43">South Africa</option>
+              <option value="44">South Korea</option>
+              <option value="45">Spain</option>
+              <option value="46">Switzerland</option>
+              <option value="47">Turkey</option>
+              <option value="48">Ukraine</option>
+              <option value="49">United States</option>
+              <option value="50">Uruguay</option>
+              <option value="51">Uzbekistan</option>
+              <option value="52">Venezuela</option>
+            </select>
+          </td>
+          <td class="col3">---</td>
+        </tr>
+        <!-- Bonus Question 2: Top Goal Scorer team -->
+        <tr class="even" id="bonus_100002">
+          <td class="col1">
+            <span class="bonusfrage">Which team will produce the highest goal scorer?</span>
+            <br/>
+            <span class="bonusdeadline">Deadline: 11/06/2026 20:00</span>
+          </td>
+          <td class="col2">
+            <select name="bonus_100002">
+              <option value="">-- Select --</option>
+              <option value="1">Argentina</option>
+              <option value="2">Australia</option>
+              <option value="3">Austria</option>
+              <option value="4">Belgium</option>
+              <option value="5">Bolivia</option>
+              <option value="6">Brazil</option>
+              <option value="7">Cameroon</option>
+              <option value="8">Canada</option>
+              <option value="9">Chile</option>
+              <option value="10">China</option>
+              <option value="11">Colombia</option>
+              <option value="12">Croatia</option>
+              <option value="13">Denmark</option>
+              <option value="14">DR Congo</option>
+              <option value="15">Ecuador</option>
+              <option value="16">Egypt</option>
+              <option value="17">England</option>
+              <option value="18">France</option>
+              <option value="19">Germany</option>
+              <option value="20">Hungary</option>
+              <option value="21">Indonesia</option>
+              <option value="22">Iran</option>
+              <option value="23">Iraq</option>
+              <option value="24">Italy</option>
+              <option value="25">Ivory Coast</option>
+              <option value="26">Japan</option>
+              <option value="27">Jordan</option>
+              <option value="28">Mali</option>
+              <option value="29">Mexico</option>
+              <option value="30">Morocco</option>
+              <option value="31">Netherlands</option>
+              <option value="32">New Zealand</option>
+              <option value="33">Nigeria</option>
+              <option value="34">Paraguay</option>
+              <option value="35">Peru</option>
+              <option value="36">Portugal</option>
+              <option value="37">Qatar</option>
+              <option value="38">Saudi Arabia</option>
+              <option value="39">Scotland</option>
+              <option value="40">Senegal</option>
+              <option value="41">Serbia</option>
+              <option value="42">Slovenia</option>
+              <option value="43">South Africa</option>
+              <option value="44">South Korea</option>
+              <option value="45">Spain</option>
+              <option value="46">Switzerland</option>
+              <option value="47">Turkey</option>
+              <option value="48">Ukraine</option>
+              <option value="49">United States</option>
+              <option value="50">Uruguay</option>
+              <option value="51">Uzbekistan</option>
+              <option value="52">Venezuela</option>
+            </select>
+          </td>
+          <td class="col3">---</td>
+        </tr>
+        <!-- Bonus Questions 3-14: Group Winners A-L -->
+        <tr class="odd" id="bonus_100003">
+          <td class="col1">
+            <span class="bonusfrage">Which team will win group A?</span>
+            <br/>
+            <span class="bonusdeadline">Deadline: 11/06/2026 20:00</span>
+          </td>
+          <td class="col2">
+            <select name="bonus_100003">
+              <option value="">-- Select --</option>
+              <option value="1">Mexico</option>
+              <option value="2">South Africa</option>
+              <option value="3">Argentina</option>
+              <option value="4">Morocco</option>
+            </select>
+          </td>
+          <td class="col3">---</td>
+        </tr>
+        <tr class="even" id="bonus_100004">
+          <td class="col1">
+            <span class="bonusfrage">Which team will win group B?</span>
+            <br/>
+            <span class="bonusdeadline">Deadline: 12/06/2026 17:00</span>
+          </td>
+          <td class="col2">
+            <select name="bonus_100004">
+              <option value="">-- Select --</option>
+              <option value="1">France</option>
+              <option value="2">Colombia</option>
+              <option value="3">Saudi Arabia</option>
+              <option value="4">Peru</option>
+            </select>
+          </td>
+          <td class="col3">---</td>
+        </tr>
+        <tr class="odd" id="bonus_100005">
+          <td class="col1">
+            <span class="bonusfrage">Which team will win group C?</span>
+            <br/>
+            <span class="bonusdeadline">Deadline: 12/06/2026 20:00</span>
+          </td>
+          <td class="col2">
+            <select name="bonus_100005">
+              <option value="">-- Select --</option>
+              <option value="1">Germany</option>
+              <option value="2">Japan</option>
+              <option value="3">Indonesia</option>
+              <option value="4">New Zealand</option>
+            </select>
+          </td>
+          <td class="col3">---</td>
+        </tr>
+        <!-- Bonus Question 15: Semi-finalists -->
+        <tr class="even" id="bonus_100015">
+          <td class="col1">
+            <span class="bonusfrage">Who will reach the semi-finals?</span>
+            <br/>
+            <span class="bonusdeadline">Deadline: 11/06/2026 20:00</span>
+          </td>
+          <td class="col2">
+            <select name="bonus_100015" multiple="multiple" size="6">
+              <option value="1">Argentina</option>
+              <option value="6">Brazil</option>
+              <option value="17">England</option>
+              <option value="18">France</option>
+              <option value="19">Germany</option>
+              <option value="36">Portugal</option>
+              <option value="45">Spain</option>
+              <option value="31">Netherlands</option>
+            </select>
+            <br/>
+            <span class="hint">Select exactly 4 teams</span>
+          </td>
+          <td class="col3">---</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="formbar">
+      <input type="submit" name="submitbutton" value="Save predictions" class="btn"/>
+    </div>
+  </form>
+</div>
+</body>
+</html>

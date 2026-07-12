@@ -1,0 +1,800 @@
+scraped_at,spieltag,player,match_index,home,away,group,result,pick,points
+2026-06-14T16:20:10+00:00,1,p07,0,Mexico,South Africa,Group A,2-0,2-0,4
+2026-06-14T16:20:10+00:00,1,p02,0,Mexico,South Africa,Group A,2-0,2-1,2
+2026-06-14T16:20:10+00:00,1,p08,0,Mexico,South Africa,Group A,2-0,2-0,4
+2026-06-14T16:20:10+00:00,1,p05,0,Mexico,South Africa,Group A,2-0,2-0,4
+2026-06-14T16:20:10+00:00,1,p01,0,Mexico,South Africa,Group A,2-0,2-1,2
+2026-06-14T16:20:10+00:00,1,p11,0,Mexico,South Africa,Group A,2-0,3-1,3
+2026-06-14T16:20:10+00:00,1,self,0,Mexico,South Africa,Group A,2-0,2-0,4
+2026-06-14T16:20:10+00:00,1,p10,0,Mexico,South Africa,Group A,2-0,2-1,2
+2026-06-14T16:20:10+00:00,1,p09,0,Mexico,South Africa,Group A,2-0,1-2,0
+2026-06-14T16:20:10+00:00,1,p06,0,Mexico,South Africa,Group A,2-0,1-2,0
+2026-06-14T16:20:10+00:00,1,p07,1,South Korea,Czech Republic,Group A,2-1,0-0,0
+2026-06-14T16:20:10+00:00,1,p02,1,South Korea,Czech Republic,Group A,2-1,0-1,0
+2026-06-14T16:20:10+00:00,1,p08,1,South Korea,Czech Republic,Group A,2-1,1-1,0
+2026-06-14T16:20:10+00:00,1,p05,1,South Korea,Czech Republic,Group A,2-1,1-2,0
+2026-06-14T16:20:10+00:00,1,p01,1,South Korea,Czech Republic,Group A,2-1,1-1,0
+2026-06-14T16:20:10+00:00,1,p03,1,South Korea,Czech Republic,Group A,2-1,1-1,0
+2026-06-14T16:20:10+00:00,1,p11,1,South Korea,Czech Republic,Group A,2-1,1-2,0
+2026-06-14T16:20:10+00:00,1,self,1,South Korea,Czech Republic,Group A,2-1,0-1,0
+2026-06-14T16:20:10+00:00,1,p10,1,South Korea,Czech Republic,Group A,2-1,1-1,0
+2026-06-14T16:20:10+00:00,1,p09,1,South Korea,Czech Republic,Group A,2-1,1-1,0
+2026-06-14T16:20:10+00:00,1,p06,1,South Korea,Czech Republic,Group A,2-1,1-2,0
+2026-06-14T16:20:10+00:00,1,p07,2,Canada,Bosnien-Herzegowina,Group B,1-1,0-0,2
+2026-06-14T16:20:10+00:00,1,p02,2,Canada,Bosnien-Herzegowina,Group B,1-1,1-1,4
+2026-06-14T16:20:10+00:00,1,p08,2,Canada,Bosnien-Herzegowina,Group B,1-1,2-1,0
+2026-06-14T16:20:10+00:00,1,p05,2,Canada,Bosnien-Herzegowina,Group B,1-1,1-1,4
+2026-06-14T16:20:10+00:00,1,p01,2,Canada,Bosnien-Herzegowina,Group B,1-1,0-0,2
+2026-06-14T16:20:10+00:00,1,p03,2,Canada,Bosnien-Herzegowina,Group B,1-1,1-1,4
+2026-06-14T16:20:10+00:00,1,p11,2,Canada,Bosnien-Herzegowina,Group B,1-1,2-1,0
+2026-06-14T16:20:10+00:00,1,self,2,Canada,Bosnien-Herzegowina,Group B,1-1,1-0,0
+2026-06-14T16:20:10+00:00,1,p10,2,Canada,Bosnien-Herzegowina,Group B,1-1,1-1,4
+2026-06-14T16:20:10+00:00,1,p09,2,Canada,Bosnien-Herzegowina,Group B,1-1,2-0,0
+2026-06-14T16:20:10+00:00,1,p06,2,Canada,Bosnien-Herzegowina,Group B,1-1,1-2,0
+2026-06-14T16:20:10+00:00,1,p07,3,USA,Paraguay,Group D,4-1,2-1,2
+2026-06-14T16:20:10+00:00,1,p02,3,USA,Paraguay,Group D,4-1,1-0,2
+2026-06-14T16:20:10+00:00,1,p08,3,USA,Paraguay,Group D,4-1,2-0,2
+2026-06-14T16:20:10+00:00,1,p05,3,USA,Paraguay,Group D,4-1,2-1,2
+2026-06-14T16:20:10+00:00,1,p01,3,USA,Paraguay,Group D,4-1,0-2,0
+2026-06-14T16:20:10+00:00,1,p03,3,USA,Paraguay,Group D,4-1,1-0,2
+2026-06-14T16:20:10+00:00,1,p11,3,USA,Paraguay,Group D,4-1,3-1,2
+2026-06-14T16:20:10+00:00,1,self,3,USA,Paraguay,Group D,4-1,1-0,2
+2026-06-14T16:20:10+00:00,1,p10,3,USA,Paraguay,Group D,4-1,2-1,2
+2026-06-14T16:20:10+00:00,1,p09,3,USA,Paraguay,Group D,4-1,2-0,2
+2026-06-14T16:20:10+00:00,1,p06,3,USA,Paraguay,Group D,4-1,1-0,2
+2026-06-14T16:20:10+00:00,1,p07,4,Qatar,Switzerland,Group B,1-1,0-4,0
+2026-06-14T16:20:10+00:00,1,p02,4,Qatar,Switzerland,Group B,1-1,1-1,4
+2026-06-14T16:20:10+00:00,1,p08,4,Qatar,Switzerland,Group B,1-1,0-2,0
+2026-06-14T16:20:10+00:00,1,p05,4,Qatar,Switzerland,Group B,1-1,1-2,0
+2026-06-14T16:20:10+00:00,1,p01,4,Qatar,Switzerland,Group B,1-1,0-1,0
+2026-06-14T16:20:10+00:00,1,p03,4,Qatar,Switzerland,Group B,1-1,1-3,0
+2026-06-14T16:20:10+00:00,1,p11,4,Qatar,Switzerland,Group B,1-1,2-3,0
+2026-06-14T16:20:10+00:00,1,self,4,Qatar,Switzerland,Group B,1-1,0-2,0
+2026-06-14T16:20:10+00:00,1,p10,4,Qatar,Switzerland,Group B,1-1,1-2,0
+2026-06-14T16:20:10+00:00,1,p09,4,Qatar,Switzerland,Group B,1-1,0-2,0
+2026-06-14T16:20:10+00:00,1,p06,4,Qatar,Switzerland,Group B,1-1,1-3,0
+2026-06-14T16:20:10+00:00,1,p07,5,Brazil,Morocco,Group C,1-1,4-1,0
+2026-06-14T16:20:10+00:00,1,p02,5,Brazil,Morocco,Group C,1-1,2-0,0
+2026-06-14T16:20:10+00:00,1,p08,5,Brazil,Morocco,Group C,1-1,3-1,0
+2026-06-14T16:20:10+00:00,1,p05,5,Brazil,Morocco,Group C,1-1,3-0,0
+2026-06-14T16:20:10+00:00,1,p01,5,Brazil,Morocco,Group C,1-1,2-0,0
+2026-06-14T16:20:10+00:00,1,p03,5,Brazil,Morocco,Group C,1-1,3-1,0
+2026-06-14T16:20:10+00:00,1,p11,5,Brazil,Morocco,Group C,1-1,3-1,0
+2026-06-14T16:20:10+00:00,1,self,5,Brazil,Morocco,Group C,1-1,2-1,0
+2026-06-14T16:20:10+00:00,1,p10,5,Brazil,Morocco,Group C,1-1,2-1,0
+2026-06-14T16:20:10+00:00,1,p09,5,Brazil,Morocco,Group C,1-1,3-1,0
+2026-06-14T16:20:10+00:00,1,p06,5,Brazil,Morocco,Group C,1-1,2-0,0
+2026-06-14T16:20:10+00:00,1,p07,6,Haiti,Scotland,Group C,0-1,0-3,2
+2026-06-14T16:20:10+00:00,1,p02,6,Haiti,Scotland,Group C,0-1,0-1,4
+2026-06-14T16:20:10+00:00,1,p08,6,Haiti,Scotland,Group C,0-1,0-2,2
+2026-06-14T16:20:10+00:00,1,p05,6,Haiti,Scotland,Group C,0-1,1-2,3
+2026-06-14T16:20:10+00:00,1,p01,6,Haiti,Scotland,Group C,0-1,0-1,4
+2026-06-14T16:20:10+00:00,1,p03,6,Haiti,Scotland,Group C,0-1,1-2,3
+2026-06-14T16:20:10+00:00,1,p11,6,Haiti,Scotland,Group C,0-1,1-1,0
+2026-06-14T16:20:10+00:00,1,self,6,Haiti,Scotland,Group C,0-1,0-1,4
+2026-06-14T16:20:10+00:00,1,p10,6,Haiti,Scotland,Group C,0-1,0-1,4
+2026-06-14T16:20:10+00:00,1,p09,6,Haiti,Scotland,Group C,0-1,1-2,3
+2026-06-14T16:20:10+00:00,1,p06,6,Haiti,Scotland,Group C,0-1,1-2,3
+2026-06-14T16:20:10+00:00,1,p07,7,Australia,Türkiye,Group D,2-0,0-3,0
+2026-06-14T16:20:10+00:00,1,p02,7,Australia,Türkiye,Group D,2-0,1-2,0
+2026-06-14T16:20:10+00:00,1,p08,7,Australia,Türkiye,Group D,2-0,1-2,0
+2026-06-14T16:20:10+00:00,1,p05,7,Australia,Türkiye,Group D,2-0,1-2,0
+2026-06-14T16:20:10+00:00,1,p01,7,Australia,Türkiye,Group D,2-0,1-0,2
+2026-06-14T16:20:10+00:00,1,p03,7,Australia,Türkiye,Group D,2-0,1-2,0
+2026-06-14T16:20:10+00:00,1,p11,7,Australia,Türkiye,Group D,2-0,1-2,0
+2026-06-14T16:20:10+00:00,1,self,7,Australia,Türkiye,Group D,2-0,0-1,0
+2026-06-14T16:20:10+00:00,1,p10,7,Australia,Türkiye,Group D,2-0,2-1,2
+2026-06-14T16:20:10+00:00,1,p09,7,Australia,Türkiye,Group D,2-0,1-2,0
+2026-06-14T16:20:10+00:00,1,p06,7,Australia,Türkiye,Group D,2-0,2-3,0
+2026-06-16T10:38:07+00:00,2,p07,0,Germany,Curaçao,Group E,7-1,3-0,2
+2026-06-16T10:38:07+00:00,2,p02,0,Germany,Curaçao,Group E,7-1,3-0,2
+2026-06-16T10:38:07+00:00,2,p08,0,Germany,Curaçao,Group E,7-1,5-0,2
+2026-06-16T10:38:07+00:00,2,p05,0,Germany,Curaçao,Group E,7-1,4-0,2
+2026-06-16T10:38:07+00:00,2,p01,0,Germany,Curaçao,Group E,7-1,2-0,2
+2026-06-16T10:38:07+00:00,2,p03,0,Germany,Curaçao,Group E,7-1,2-0,2
+2026-06-16T10:38:07+00:00,2,p11,0,Germany,Curaçao,Group E,7-1,3-0,2
+2026-06-16T10:38:07+00:00,2,self,0,Germany,Curaçao,Group E,7-1,3-0,2
+2026-06-16T10:38:07+00:00,2,p10,0,Germany,Curaçao,Group E,7-1,2-0,2
+2026-06-16T10:38:07+00:00,2,p06,0,Germany,Curaçao,Group E,7-1,3-0,2
+2026-06-16T10:38:07+00:00,2,p07,1,Netherlands,Japan,Group F,2-2,3-1,0
+2026-06-16T10:38:07+00:00,2,p02,1,Netherlands,Japan,Group F,2-2,2-1,0
+2026-06-16T10:38:07+00:00,2,p08,1,Netherlands,Japan,Group F,2-2,2-1,0
+2026-06-16T10:38:07+00:00,2,p05,1,Netherlands,Japan,Group F,2-2,2-1,0
+2026-06-16T10:38:07+00:00,2,p01,1,Netherlands,Japan,Group F,2-2,1-0,0
+2026-06-16T10:38:07+00:00,2,p03,1,Netherlands,Japan,Group F,2-2,2-1,0
+2026-06-16T10:38:07+00:00,2,p11,1,Netherlands,Japan,Group F,2-2,2-1,0
+2026-06-16T10:38:07+00:00,2,self,1,Netherlands,Japan,Group F,2-2,1-0,0
+2026-06-16T10:38:07+00:00,2,p10,1,Netherlands,Japan,Group F,2-2,2-1,0
+2026-06-16T10:38:07+00:00,2,p06,1,Netherlands,Japan,Group F,2-2,3-1,0
+2026-06-16T10:38:07+00:00,2,p04,1,Netherlands,Japan,Group F,2-2,2-3,0
+2026-06-16T10:38:07+00:00,2,p07,2,Ivory Coast,Ecuador,Group E,1-0,1-1,0
+2026-06-16T10:38:07+00:00,2,p02,2,Ivory Coast,Ecuador,Group E,1-0,0-1,0
+2026-06-16T10:38:07+00:00,2,p08,2,Ivory Coast,Ecuador,Group E,1-0,1-1,0
+2026-06-16T10:38:07+00:00,2,p05,2,Ivory Coast,Ecuador,Group E,1-0,1-1,0
+2026-06-16T10:38:07+00:00,2,p01,2,Ivory Coast,Ecuador,Group E,1-0,0-1,0
+2026-06-16T10:38:07+00:00,2,p03,2,Ivory Coast,Ecuador,Group E,1-0,3-2,3
+2026-06-16T10:38:07+00:00,2,p11,2,Ivory Coast,Ecuador,Group E,1-0,1-1,0
+2026-06-16T10:38:07+00:00,2,self,2,Ivory Coast,Ecuador,Group E,1-0,0-1,0
+2026-06-16T10:38:07+00:00,2,p10,2,Ivory Coast,Ecuador,Group E,1-0,1-1,0
+2026-06-16T10:38:07+00:00,2,p06,2,Ivory Coast,Ecuador,Group E,1-0,2-3,0
+2026-06-16T10:38:07+00:00,2,p04,2,Ivory Coast,Ecuador,Group E,1-0,1-2,0
+2026-06-16T10:38:07+00:00,2,p07,3,Sweden,Tunisia,Group F,5-1,1-0,2
+2026-06-16T10:38:07+00:00,2,p02,3,Sweden,Tunisia,Group F,5-1,1-1,0
+2026-06-16T10:38:07+00:00,2,p08,3,Sweden,Tunisia,Group F,5-1,2-0,2
+2026-06-16T10:38:07+00:00,2,p05,3,Sweden,Tunisia,Group F,5-1,2-1,2
+2026-06-16T10:38:07+00:00,2,p01,3,Sweden,Tunisia,Group F,5-1,1-0,2
+2026-06-16T10:38:07+00:00,2,p03,3,Sweden,Tunisia,Group F,5-1,1-0,2
+2026-06-16T10:38:07+00:00,2,p11,3,Sweden,Tunisia,Group F,5-1,2-1,2
+2026-06-16T10:38:07+00:00,2,self,3,Sweden,Tunisia,Group F,5-1,1-0,2
+2026-06-16T10:38:07+00:00,2,p10,3,Sweden,Tunisia,Group F,5-1,2-1,2
+2026-06-16T10:38:07+00:00,2,p06,3,Sweden,Tunisia,Group F,5-1,2-1,2
+2026-06-16T10:38:07+00:00,2,p04,3,Sweden,Tunisia,Group F,5-1,1-2,0
+2026-06-16T10:38:07+00:00,2,p07,4,Spain,Cape Verde,Group H,0-0,5-0,0
+2026-06-16T10:38:07+00:00,2,p02,4,Spain,Cape Verde,Group H,0-0,2-0,0
+2026-06-16T10:38:07+00:00,2,p08,4,Spain,Cape Verde,Group H,0-0,4-0,0
+2026-06-16T10:38:07+00:00,2,p05,4,Spain,Cape Verde,Group H,0-0,4-1,0
+2026-06-16T10:38:07+00:00,2,p01,4,Spain,Cape Verde,Group H,0-0,2-0,0
+2026-06-16T10:38:07+00:00,2,p03,4,Spain,Cape Verde,Group H,0-0,3-1,0
+2026-06-16T10:38:07+00:00,2,p11,4,Spain,Cape Verde,Group H,0-0,3-0,0
+2026-06-16T10:38:07+00:00,2,self,4,Spain,Cape Verde,Group H,0-0,3-0,0
+2026-06-16T10:38:07+00:00,2,p10,4,Spain,Cape Verde,Group H,0-0,2-2,2
+2026-06-16T10:38:07+00:00,2,p06,4,Spain,Cape Verde,Group H,0-0,3-0,0
+2026-06-16T10:38:07+00:00,2,p04,4,Spain,Cape Verde,Group H,0-0,4-1,0
+2026-06-16T10:38:07+00:00,2,p07,5,Belgium,Egypt,Group G,1-1,2-2,2
+2026-06-16T10:38:07+00:00,2,p02,5,Belgium,Egypt,Group G,1-1,2-1,0
+2026-06-16T10:38:07+00:00,2,p08,5,Belgium,Egypt,Group G,1-1,2-0,0
+2026-06-16T10:38:07+00:00,2,p05,5,Belgium,Egypt,Group G,1-1,2-1,0
+2026-06-16T10:38:07+00:00,2,p01,5,Belgium,Egypt,Group G,1-1,1-0,0
+2026-06-16T10:38:07+00:00,2,p03,5,Belgium,Egypt,Group G,1-1,2-1,0
+2026-06-16T10:38:07+00:00,2,p11,5,Belgium,Egypt,Group G,1-1,2-1,0
+2026-06-16T10:38:07+00:00,2,self,5,Belgium,Egypt,Group G,1-1,1-0,0
+2026-06-16T10:38:07+00:00,2,p10,5,Belgium,Egypt,Group G,1-1,2-2,2
+2026-06-16T10:38:07+00:00,2,p06,5,Belgium,Egypt,Group G,1-1,1-2,0
+2026-06-16T10:38:07+00:00,2,p04,5,Belgium,Egypt,Group G,1-1,2-3,0
+2026-06-16T10:38:07+00:00,2,p07,6,Saudi Arabia,Uruguay,Group H,1-1,1-2,0
+2026-06-16T10:38:07+00:00,2,p02,6,Saudi Arabia,Uruguay,Group H,1-1,0-1,0
+2026-06-16T10:38:07+00:00,2,p08,6,Saudi Arabia,Uruguay,Group H,1-1,0-2,0
+2026-06-16T10:38:07+00:00,2,p05,6,Saudi Arabia,Uruguay,Group H,1-1,1-2,0
+2026-06-16T10:38:07+00:00,2,p01,6,Saudi Arabia,Uruguay,Group H,1-1,0-2,0
+2026-06-16T10:38:07+00:00,2,p03,6,Saudi Arabia,Uruguay,Group H,1-1,0-2,0
+2026-06-16T10:38:07+00:00,2,p11,6,Saudi Arabia,Uruguay,Group H,1-1,2-2,2
+2026-06-16T10:38:07+00:00,2,self,6,Saudi Arabia,Uruguay,Group H,1-1,0-1,0
+2026-06-16T10:38:07+00:00,2,p10,6,Saudi Arabia,Uruguay,Group H,1-1,1-0,0
+2026-06-16T10:38:07+00:00,2,p06,6,Saudi Arabia,Uruguay,Group H,1-1,0-2,0
+2026-06-16T10:38:07+00:00,2,p04,6,Saudi Arabia,Uruguay,Group H,1-1,2-1,0
+2026-06-16T10:38:07+00:00,2,p07,7,Iran,New Zealand,Group G,2-2,0-1,0
+2026-06-16T10:38:07+00:00,2,p02,7,Iran,New Zealand,Group G,2-2,1-1,2
+2026-06-16T10:38:07+00:00,2,p08,7,Iran,New Zealand,Group G,2-2,2-1,0
+2026-06-16T10:38:07+00:00,2,p05,7,Iran,New Zealand,Group G,2-2,1-2,0
+2026-06-16T10:38:07+00:00,2,p01,7,Iran,New Zealand,Group G,2-2,0-1,0
+2026-06-16T10:38:07+00:00,2,p03,7,Iran,New Zealand,Group G,2-2,2-1,0
+2026-06-16T10:38:07+00:00,2,p11,7,Iran,New Zealand,Group G,2-2,1-2,0
+2026-06-16T10:38:07+00:00,2,self,7,Iran,New Zealand,Group G,2-2,1-0,0
+2026-06-16T10:38:07+00:00,2,p10,7,Iran,New Zealand,Group G,2-2,1-1,2
+2026-06-16T10:38:07+00:00,2,p06,7,Iran,New Zealand,Group G,2-2,1-0,0
+2026-06-16T10:38:07+00:00,2,p04,7,Iran,New Zealand,Group G,2-2,2-3,0
+2026-06-18T12:52:58+00:00,3,p07,0,France,Senegal,Group I,3-1,3-1,4
+2026-06-18T12:52:58+00:00,3,p02,0,France,Senegal,Group I,3-1,2-1,2
+2026-06-18T12:52:58+00:00,3,p08,0,France,Senegal,Group I,3-1,3-0,2
+2026-06-18T12:52:58+00:00,3,p05,0,France,Senegal,Group I,3-1,3-0,2
+2026-06-18T12:52:58+00:00,3,p01,0,France,Senegal,Group I,3-1,2-0,3
+2026-06-18T12:52:58+00:00,3,p03,0,France,Senegal,Group I,3-1,1-1,0
+2026-06-18T12:52:58+00:00,3,self,0,France,Senegal,Group I,3-1,2-0,3
+2026-06-18T12:52:58+00:00,3,p10,0,France,Senegal,Group I,3-1,4-0,2
+2026-06-18T12:52:58+00:00,3,p09,0,France,Senegal,Group I,3-1,1-1,0
+2026-06-18T12:52:58+00:00,3,p06,0,France,Senegal,Group I,3-1,3-1,4
+2026-06-18T12:52:58+00:00,3,p07,1,Iraq,Norway,Group I,1-4,0-3,3
+2026-06-18T12:52:58+00:00,3,p02,1,Iraq,Norway,Group I,1-4,0-1,2
+2026-06-18T12:52:58+00:00,3,p08,1,Iraq,Norway,Group I,1-4,0-3,3
+2026-06-18T12:52:58+00:00,3,p05,1,Iraq,Norway,Group I,1-4,1-3,2
+2026-06-18T12:52:58+00:00,3,p01,1,Iraq,Norway,Group I,1-4,0-1,2
+2026-06-18T12:52:58+00:00,3,p03,1,Iraq,Norway,Group I,1-4,0-1,2
+2026-06-18T12:52:58+00:00,3,p11,1,Iraq,Norway,Group I,1-4,2-3,2
+2026-06-18T12:52:58+00:00,3,self,1,Iraq,Norway,Group I,1-4,0-2,2
+2026-06-18T12:52:58+00:00,3,p10,1,Iraq,Norway,Group I,1-4,2-1,0
+2026-06-18T12:52:58+00:00,3,p09,1,Iraq,Norway,Group I,1-4,1-3,2
+2026-06-18T12:52:58+00:00,3,p06,1,Iraq,Norway,Group I,1-4,1-2,2
+2026-06-18T12:52:58+00:00,3,p07,2,Argentina,Algeria,Group J,3-0,2-0,2
+2026-06-18T12:52:58+00:00,3,p02,2,Argentina,Algeria,Group J,3-0,1-0,2
+2026-06-18T12:52:58+00:00,3,p08,2,Argentina,Algeria,Group J,3-0,3-1,2
+2026-06-18T12:52:58+00:00,3,p05,2,Argentina,Algeria,Group J,3-0,2-1,2
+2026-06-18T12:52:58+00:00,3,p01,2,Argentina,Algeria,Group J,3-0,2-0,2
+2026-06-18T12:52:58+00:00,3,p03,2,Argentina,Algeria,Group J,3-0,3-1,2
+2026-06-18T12:52:58+00:00,3,p11,2,Argentina,Algeria,Group J,3-0,4-2,2
+2026-06-18T12:52:58+00:00,3,self,2,Argentina,Algeria,Group J,3-0,2-0,2
+2026-06-18T12:52:58+00:00,3,p10,2,Argentina,Algeria,Group J,3-0,3-1,2
+2026-06-18T12:52:58+00:00,3,p09,2,Argentina,Algeria,Group J,3-0,2-0,2
+2026-06-18T12:52:58+00:00,3,p06,2,Argentina,Algeria,Group J,3-0,2-1,2
+2026-06-18T12:52:58+00:00,3,p07,3,Austria,Jordan,Group J,3-1,0-0,0
+2026-06-18T12:52:58+00:00,3,p02,3,Austria,Jordan,Group J,3-1,2-0,3
+2026-06-18T12:52:58+00:00,3,p08,3,Austria,Jordan,Group J,3-1,2-1,2
+2026-06-18T12:52:58+00:00,3,p05,3,Austria,Jordan,Group J,3-1,2-0,3
+2026-06-18T12:52:58+00:00,3,p01,3,Austria,Jordan,Group J,3-1,1-0,2
+2026-06-18T12:52:58+00:00,3,p03,3,Austria,Jordan,Group J,3-1,1-0,2
+2026-06-18T12:52:58+00:00,3,p11,3,Austria,Jordan,Group J,3-1,2-2,0
+2026-06-18T12:52:58+00:00,3,self,3,Austria,Jordan,Group J,3-1,2-0,3
+2026-06-18T12:52:58+00:00,3,p10,3,Austria,Jordan,Group J,3-1,3-1,4
+2026-06-18T12:52:58+00:00,3,p09,3,Austria,Jordan,Group J,3-1,1-1,0
+2026-06-18T12:52:58+00:00,3,p06,3,Austria,Jordan,Group J,3-1,2-0,3
+2026-06-18T12:52:58+00:00,3,p07,4,Portugal,DR Congo,Group K,1-1,2-0,0
+2026-06-18T12:52:58+00:00,3,p02,4,Portugal,DR Congo,Group K,1-1,2-1,0
+2026-06-18T12:52:58+00:00,3,p08,4,Portugal,DR Congo,Group K,1-1,3-1,0
+2026-06-18T12:52:58+00:00,3,p05,4,Portugal,DR Congo,Group K,1-1,4-1,0
+2026-06-18T12:52:58+00:00,3,p01,4,Portugal,DR Congo,Group K,1-1,1-0,0
+2026-06-18T12:52:58+00:00,3,p03,4,Portugal,DR Congo,Group K,1-1,3-1,0
+2026-06-18T12:52:58+00:00,3,p11,4,Portugal,DR Congo,Group K,1-1,4-0,0
+2026-06-18T12:52:58+00:00,3,self,4,Portugal,DR Congo,Group K,1-1,2-0,0
+2026-06-18T12:52:58+00:00,3,p10,4,Portugal,DR Congo,Group K,1-1,3-1,0
+2026-06-18T12:52:58+00:00,3,p09,4,Portugal,DR Congo,Group K,1-1,0-1,0
+2026-06-18T12:52:58+00:00,3,p06,4,Portugal,DR Congo,Group K,1-1,2-1,0
+2026-06-18T12:52:58+00:00,3,p04,4,Portugal,DR Congo,Group K,1-1,3-1,0
+2026-06-18T12:52:58+00:00,3,p07,5,England,Croatia,Group L,4-2,2-0,3
+2026-06-18T12:52:58+00:00,3,p02,5,England,Croatia,Group L,4-2,3-2,2
+2026-06-18T12:52:58+00:00,3,p08,5,England,Croatia,Group L,4-2,2-1,2
+2026-06-18T12:52:58+00:00,3,p05,5,England,Croatia,Group L,4-2,2-1,2
+2026-06-18T12:52:58+00:00,3,p01,5,England,Croatia,Group L,4-2,1-1,0
+2026-06-18T12:52:58+00:00,3,p03,5,England,Croatia,Group L,4-2,2-1,2
+2026-06-18T12:52:58+00:00,3,p11,5,England,Croatia,Group L,4-2,3-2,2
+2026-06-18T12:52:58+00:00,3,self,5,England,Croatia,Group L,4-2,1-0,2
+2026-06-18T12:52:58+00:00,3,p10,5,England,Croatia,Group L,4-2,3-1,3
+2026-06-18T12:52:58+00:00,3,p09,5,England,Croatia,Group L,4-2,2-1,2
+2026-06-18T12:52:58+00:00,3,p06,5,England,Croatia,Group L,4-2,2-1,2
+2026-06-18T12:52:58+00:00,3,p04,5,England,Croatia,Group L,4-2,3-1,3
+2026-06-18T12:52:58+00:00,3,p07,6,Ghana,Panama,Group L,1-0,2-1,3
+2026-06-18T12:52:58+00:00,3,p02,6,Ghana,Panama,Group L,1-0,1-0,4
+2026-06-18T12:52:58+00:00,3,p08,6,Ghana,Panama,Group L,1-0,1-1,0
+2026-06-18T12:52:58+00:00,3,p05,6,Ghana,Panama,Group L,1-0,2-0,2
+2026-06-18T12:52:58+00:00,3,p01,6,Ghana,Panama,Group L,1-0,0-0,0
+2026-06-18T12:52:58+00:00,3,p03,6,Ghana,Panama,Group L,1-0,1-0,4
+2026-06-18T12:52:58+00:00,3,p11,6,Ghana,Panama,Group L,1-0,2-1,3
+2026-06-18T12:52:58+00:00,3,self,6,Ghana,Panama,Group L,1-0,1-0,4
+2026-06-18T12:52:58+00:00,3,p10,6,Ghana,Panama,Group L,1-0,2-1,3
+2026-06-18T12:52:58+00:00,3,p09,6,Ghana,Panama,Group L,1-0,1-1,0
+2026-06-18T12:52:58+00:00,3,p06,6,Ghana,Panama,Group L,1-0,1-0,4
+2026-06-18T12:52:58+00:00,3,p04,6,Ghana,Panama,Group L,1-0,2-2,0
+2026-06-18T12:52:58+00:00,3,p07,7,Uzbekistan,Colombia,Group K,1-3,0-3,2
+2026-06-18T12:52:58+00:00,3,p02,7,Uzbekistan,Colombia,Group K,1-3,0-1,2
+2026-06-18T12:52:58+00:00,3,p08,7,Uzbekistan,Colombia,Group K,1-3,0-2,3
+2026-06-18T12:52:58+00:00,3,p05,7,Uzbekistan,Colombia,Group K,1-3,0-2,3
+2026-06-18T12:52:58+00:00,3,p01,7,Uzbekistan,Colombia,Group K,1-3,0-0,0
+2026-06-18T12:52:58+00:00,3,p03,7,Uzbekistan,Colombia,Group K,1-3,1-2,2
+2026-06-18T12:52:58+00:00,3,p11,7,Uzbekistan,Colombia,Group K,1-3,2-2,0
+2026-06-18T12:52:58+00:00,3,self,7,Uzbekistan,Colombia,Group K,1-3,0-2,3
+2026-06-18T12:52:58+00:00,3,p10,7,Uzbekistan,Colombia,Group K,1-3,1-1,0
+2026-06-18T12:52:58+00:00,3,p09,7,Uzbekistan,Colombia,Group K,1-3,1-3,4
+2026-06-18T12:52:58+00:00,3,p06,7,Uzbekistan,Colombia,Group K,1-3,0-3,2
+2026-06-18T12:52:58+00:00,3,p04,7,Uzbekistan,Colombia,Group K,1-3,1-2,2
+2026-06-20T15:21:44+00:00,4,p07,0,Czech Republic,South Africa,Group A,1-1,0-0,2
+2026-06-20T15:21:44+00:00,4,p02,0,Czech Republic,South Africa,Group A,1-1,1-1,4
+2026-06-20T15:21:44+00:00,4,p08,0,Czech Republic,South Africa,Group A,1-1,2-0,0
+2026-06-20T15:21:44+00:00,4,p05,0,Czech Republic,South Africa,Group A,1-1,1-0,0
+2026-06-20T15:21:44+00:00,4,p01,0,Czech Republic,South Africa,Group A,1-1,1-0,0
+2026-06-20T15:21:44+00:00,4,p11,0,Czech Republic,South Africa,Group A,1-1,2-1,0
+2026-06-20T15:21:44+00:00,4,self,0,Czech Republic,South Africa,Group A,1-1,1-0,0
+2026-06-20T15:21:44+00:00,4,p10,0,Czech Republic,South Africa,Group A,1-1,1-1,4
+2026-06-20T15:21:44+00:00,4,p09,0,Czech Republic,South Africa,Group A,1-1,1-1,4
+2026-06-20T15:21:44+00:00,4,p06,0,Czech Republic,South Africa,Group A,1-1,1-0,0
+2026-06-20T15:21:44+00:00,4,p04,0,Czech Republic,South Africa,Group A,1-1,2-3,0
+2026-06-20T15:21:44+00:00,4,p07,1,Switzerland,Bosnien-Herzegowina,Group B,4-1,0-0,0
+2026-06-20T15:21:44+00:00,4,p02,1,Switzerland,Bosnien-Herzegowina,Group B,4-1,3-1,2
+2026-06-20T15:21:44+00:00,4,p08,1,Switzerland,Bosnien-Herzegowina,Group B,4-1,1-1,0
+2026-06-20T15:21:44+00:00,4,p05,1,Switzerland,Bosnien-Herzegowina,Group B,4-1,1-0,2
+2026-06-20T15:21:44+00:00,4,p01,1,Switzerland,Bosnien-Herzegowina,Group B,4-1,1-0,2
+2026-06-20T15:21:44+00:00,4,p11,1,Switzerland,Bosnien-Herzegowina,Group B,4-1,3-1,2
+2026-06-20T15:21:44+00:00,4,self,1,Switzerland,Bosnien-Herzegowina,Group B,4-1,1-0,2
+2026-06-20T15:21:44+00:00,4,p10,1,Switzerland,Bosnien-Herzegowina,Group B,4-1,1-1,0
+2026-06-20T15:21:44+00:00,4,p09,1,Switzerland,Bosnien-Herzegowina,Group B,4-1,2-1,2
+2026-06-20T15:21:44+00:00,4,p06,1,Switzerland,Bosnien-Herzegowina,Group B,4-1,2-1,2
+2026-06-20T15:21:44+00:00,4,p04,1,Switzerland,Bosnien-Herzegowina,Group B,4-1,2-2,0
+2026-06-20T15:21:44+00:00,4,p07,2,Canada,Qatar,Group B,6-0,2-0,2
+2026-06-20T15:21:44+00:00,4,p02,2,Canada,Qatar,Group B,6-0,2-1,2
+2026-06-20T15:21:44+00:00,4,p08,2,Canada,Qatar,Group B,6-0,2-0,2
+2026-06-20T15:21:44+00:00,4,p05,2,Canada,Qatar,Group B,6-0,2-1,2
+2026-06-20T15:21:44+00:00,4,p01,2,Canada,Qatar,Group B,6-0,2-0,2
+2026-06-20T15:21:44+00:00,4,p11,2,Canada,Qatar,Group B,6-0,3-2,2
+2026-06-20T15:21:44+00:00,4,self,2,Canada,Qatar,Group B,6-0,2-0,2
+2026-06-20T15:21:44+00:00,4,p10,2,Canada,Qatar,Group B,6-0,1-1,0
+2026-06-20T15:21:44+00:00,4,p09,2,Canada,Qatar,Group B,6-0,2-1,2
+2026-06-20T15:21:44+00:00,4,p06,2,Canada,Qatar,Group B,6-0,2-1,2
+2026-06-20T15:21:44+00:00,4,p04,2,Canada,Qatar,Group B,6-0,2-5,0
+2026-06-20T15:21:44+00:00,4,p07,3,Mexico,South Korea,Group A,1-0,2-1,3
+2026-06-20T15:21:44+00:00,4,p02,3,Mexico,South Korea,Group A,1-0,1-2,0
+2026-06-20T15:21:44+00:00,4,p08,3,Mexico,South Korea,Group A,1-0,2-1,3
+2026-06-20T15:21:44+00:00,4,p05,3,Mexico,South Korea,Group A,1-0,2-1,3
+2026-06-20T15:21:44+00:00,4,p01,3,Mexico,South Korea,Group A,1-0,1-1,0
+2026-06-20T15:21:44+00:00,4,p03,3,Mexico,South Korea,Group A,1-0,2-1,3
+2026-06-20T15:21:44+00:00,4,p11,3,Mexico,South Korea,Group A,1-0,2-2,0
+2026-06-20T15:21:44+00:00,4,self,3,Mexico,South Korea,Group A,1-0,1-0,4
+2026-06-20T15:21:44+00:00,4,p10,3,Mexico,South Korea,Group A,1-0,1-0,4
+2026-06-20T15:21:44+00:00,4,p09,3,Mexico,South Korea,Group A,1-0,3-1,2
+2026-06-20T15:21:44+00:00,4,p06,3,Mexico,South Korea,Group A,1-0,2-1,3
+2026-06-20T15:21:44+00:00,4,p04,3,Mexico,South Korea,Group A,1-0,3-2,3
+2026-06-20T15:21:44+00:00,4,p07,4,USA,Australia,Group D,2-0,1-1,0
+2026-06-20T15:21:44+00:00,4,p02,4,USA,Australia,Group D,2-0,2-0,4
+2026-06-20T15:21:44+00:00,4,p08,4,USA,Australia,Group D,2-0,2-1,2
+2026-06-20T15:21:44+00:00,4,p05,4,USA,Australia,Group D,2-0,3-1,3
+2026-06-20T15:21:44+00:00,4,p01,4,USA,Australia,Group D,2-0,2-1,2
+2026-06-20T15:21:44+00:00,4,p03,4,USA,Australia,Group D,2-0,2-1,2
+2026-06-20T15:21:44+00:00,4,p11,4,USA,Australia,Group D,2-0,2-3,0
+2026-06-20T15:21:44+00:00,4,self,4,USA,Australia,Group D,2-0,1-0,2
+2026-06-20T15:21:44+00:00,4,p10,4,USA,Australia,Group D,2-0,2-0,4
+2026-06-20T15:21:44+00:00,4,p09,4,USA,Australia,Group D,2-0,1-2,0
+2026-06-20T15:21:44+00:00,4,p06,4,USA,Australia,Group D,2-0,2-1,2
+2026-06-20T15:21:44+00:00,4,p04,4,USA,Australia,Group D,2-0,2-4,0
+2026-06-20T15:21:44+00:00,4,p07,5,Scotland,Morocco,Group C,0-1,1-1,0
+2026-06-20T15:21:44+00:00,4,p02,5,Scotland,Morocco,Group C,0-1,1-1,0
+2026-06-20T15:21:44+00:00,4,p08,5,Scotland,Morocco,Group C,0-1,1-1,0
+2026-06-20T15:21:44+00:00,4,p05,5,Scotland,Morocco,Group C,0-1,1-2,3
+2026-06-20T15:21:44+00:00,4,p01,5,Scotland,Morocco,Group C,0-1,0-1,4
+2026-06-20T15:21:44+00:00,4,p03,5,Scotland,Morocco,Group C,0-1,0-1,4
+2026-06-20T15:21:44+00:00,4,p11,5,Scotland,Morocco,Group C,0-1,1-2,3
+2026-06-20T15:21:44+00:00,4,self,5,Scotland,Morocco,Group C,0-1,0-1,4
+2026-06-20T15:21:44+00:00,4,p10,5,Scotland,Morocco,Group C,0-1,1-0,0
+2026-06-20T15:21:44+00:00,4,p09,5,Scotland,Morocco,Group C,0-1,1-3,2
+2026-06-20T15:21:44+00:00,4,p06,5,Scotland,Morocco,Group C,0-1,1-2,3
+2026-06-20T15:21:44+00:00,4,p04,5,Scotland,Morocco,Group C,0-1,2-4,2
+2026-06-20T15:21:44+00:00,4,p07,6,Brazil,Haiti,Group C,3-0,4-0,2
+2026-06-20T15:21:44+00:00,4,p02,6,Brazil,Haiti,Group C,3-0,4-1,3
+2026-06-20T15:21:44+00:00,4,p08,6,Brazil,Haiti,Group C,3-0,4-0,2
+2026-06-20T15:21:44+00:00,4,p05,6,Brazil,Haiti,Group C,3-0,4-0,2
+2026-06-20T15:21:44+00:00,4,p01,6,Brazil,Haiti,Group C,3-0,3-0,4
+2026-06-20T15:21:44+00:00,4,p03,6,Brazil,Haiti,Group C,3-0,5-0,2
+2026-06-20T15:21:44+00:00,4,p11,6,Brazil,Haiti,Group C,3-0,4-1,3
+2026-06-20T15:21:44+00:00,4,self,6,Brazil,Haiti,Group C,3-0,3-0,4
+2026-06-20T15:21:44+00:00,4,p10,6,Brazil,Haiti,Group C,3-0,3-1,2
+2026-06-20T15:21:44+00:00,4,p09,6,Brazil,Haiti,Group C,3-0,6-1,2
+2026-06-20T15:21:44+00:00,4,p06,6,Brazil,Haiti,Group C,3-0,3-1,2
+2026-06-20T15:21:44+00:00,4,p04,6,Brazil,Haiti,Group C,3-0,1-0,2
+2026-06-20T15:21:44+00:00,4,p07,7,Türkiye,Paraguay,Group D,0-1,2-0,0
+2026-06-20T15:21:44+00:00,4,p02,7,Türkiye,Paraguay,Group D,0-1,1-1,0
+2026-06-20T15:21:44+00:00,4,p08,7,Türkiye,Paraguay,Group D,0-1,2-1,0
+2026-06-20T15:21:44+00:00,4,p05,7,Türkiye,Paraguay,Group D,0-1,2-1,0
+2026-06-20T15:21:44+00:00,4,p01,7,Türkiye,Paraguay,Group D,0-1,1-0,0
+2026-06-20T15:21:44+00:00,4,p03,7,Türkiye,Paraguay,Group D,0-1,1-0,0
+2026-06-20T15:21:44+00:00,4,p11,7,Türkiye,Paraguay,Group D,0-1,3-1,0
+2026-06-20T15:21:44+00:00,4,self,7,Türkiye,Paraguay,Group D,0-1,1-0,0
+2026-06-20T15:21:44+00:00,4,p10,7,Türkiye,Paraguay,Group D,0-1,3-1,0
+2026-06-20T15:21:44+00:00,4,p09,7,Türkiye,Paraguay,Group D,0-1,0-1,4
+2026-06-20T15:21:44+00:00,4,p06,7,Türkiye,Paraguay,Group D,0-1,2-0,0
+2026-06-20T15:21:44+00:00,4,p04,7,Türkiye,Paraguay,Group D,0-1,1-1,0
+2026-06-23T23:27:17+00:00,5,p02,0,Netherlands,Sweden,Group F,5-1,1-2,0
+2026-06-20T17:07:22+00:00,5,p08,0,Netherlands,Sweden,Group F,1-0,2-1,3
+2026-06-20T17:07:22+00:00,5,p05,0,Netherlands,Sweden,Group F,1-0,2-1,3
+2026-06-23T23:27:17+00:00,5,p01,0,Netherlands,Sweden,Group F,5-1,2-0,2
+2026-06-23T23:27:17+00:00,5,p11,0,Netherlands,Sweden,Group F,5-1,3-1,2
+2026-06-20T17:07:22+00:00,5,self,0,Netherlands,Sweden,Group F,1-0,2-1,3
+2026-06-20T17:07:22+00:00,5,p10,0,Netherlands,Sweden,Group F,1-0,1-0,4
+2026-06-23T23:27:17+00:00,5,p09,0,Netherlands,Sweden,Group F,5-1,2-2,0
+2026-06-20T17:07:22+00:00,5,p06,0,Netherlands,Sweden,Group F,1-0,2-1,3
+2026-06-20T17:07:22+00:00,5,p04,0,Netherlands,Sweden,Group F,1-0,5-4,3
+2026-06-23T23:27:17+00:00,5,p07,1,Germany,Ivory Coast,Group E,2-1,3-0,2
+2026-06-23T23:27:17+00:00,5,p02,1,Germany,Ivory Coast,Group E,2-1,3-1,2
+2026-06-23T23:27:17+00:00,5,p08,1,Germany,Ivory Coast,Group E,2-1,3-1,2
+2026-06-23T23:27:17+00:00,5,p05,1,Germany,Ivory Coast,Group E,2-1,3-1,2
+2026-06-23T23:27:17+00:00,5,p01,1,Germany,Ivory Coast,Group E,2-1,3-1,2
+2026-06-23T23:27:17+00:00,5,p03,1,Germany,Ivory Coast,Group E,2-1,3-1,2
+2026-06-23T23:27:17+00:00,5,p11,1,Germany,Ivory Coast,Group E,2-1,5-2,2
+2026-06-23T23:27:17+00:00,5,self,1,Germany,Ivory Coast,Group E,2-1,2-0,2
+2026-06-23T23:27:17+00:00,5,p10,1,Germany,Ivory Coast,Group E,2-1,3-1,2
+2026-06-23T23:27:17+00:00,5,p09,1,Germany,Ivory Coast,Group E,2-1,3-1,2
+2026-06-23T23:27:17+00:00,5,p06,1,Germany,Ivory Coast,Group E,2-1,2-1,4
+2026-06-23T23:27:17+00:00,5,p04,1,Germany,Ivory Coast,Group E,2-1,4-2,2
+2026-06-23T23:27:17+00:00,5,p07,2,Ecuador,Curaçao,Group E,0-0,1-1,2
+2026-06-23T23:27:17+00:00,5,p02,2,Ecuador,Curaçao,Group E,0-0,1-0,0
+2026-06-23T23:27:17+00:00,5,p08,2,Ecuador,Curaçao,Group E,0-0,2-0,0
+2026-06-23T23:27:17+00:00,5,p05,2,Ecuador,Curaçao,Group E,0-0,3-1,0
+2026-06-23T23:27:17+00:00,5,p01,2,Ecuador,Curaçao,Group E,0-0,1-0,0
+2026-06-23T23:27:17+00:00,5,p11,2,Ecuador,Curaçao,Group E,0-0,2-3,0
+2026-06-23T23:27:17+00:00,5,self,2,Ecuador,Curaçao,Group E,0-0,2-0,0
+2026-06-23T23:27:17+00:00,5,p10,2,Ecuador,Curaçao,Group E,0-0,2-1,0
+2026-06-23T23:27:17+00:00,5,p09,2,Ecuador,Curaçao,Group E,0-0,4-1,0
+2026-06-23T23:27:17+00:00,5,p06,2,Ecuador,Curaçao,Group E,0-0,3-0,0
+2026-06-23T23:27:17+00:00,5,p04,2,Ecuador,Curaçao,Group E,0-0,1-1,2
+2026-06-23T23:27:17+00:00,5,p07,3,Tunisia,Japan,Group F,0-4,0-4,4
+2026-06-23T23:27:17+00:00,5,p02,3,Tunisia,Japan,Group F,0-4,1-2,2
+2026-06-23T23:27:17+00:00,5,p08,3,Tunisia,Japan,Group F,0-4,1-2,2
+2026-06-23T23:27:17+00:00,5,p05,3,Tunisia,Japan,Group F,0-4,0-2,2
+2026-06-23T23:27:17+00:00,5,p01,3,Tunisia,Japan,Group F,0-4,0-1,2
+2026-06-23T23:27:17+00:00,5,p03,3,Tunisia,Japan,Group F,0-4,0-1,2
+2026-06-23T23:27:17+00:00,5,p11,3,Tunisia,Japan,Group F,0-4,2-2,0
+2026-06-23T23:27:17+00:00,5,self,3,Tunisia,Japan,Group F,0-4,0-1,2
+2026-06-23T23:27:17+00:00,5,p10,3,Tunisia,Japan,Group F,0-4,1-2,2
+2026-06-23T23:27:17+00:00,5,p09,3,Tunisia,Japan,Group F,0-4,1-3,2
+2026-06-23T23:27:17+00:00,5,p06,3,Tunisia,Japan,Group F,0-4,1-2,2
+2026-06-23T23:27:17+00:00,5,p04,3,Tunisia,Japan,Group F,0-4,3-5,2
+2026-06-23T23:27:17+00:00,5,p07,4,Spain,Saudi Arabia,Group H,4-0,5-0,2
+2026-06-23T23:27:17+00:00,5,p02,4,Spain,Saudi Arabia,Group H,4-0,4-0,4
+2026-06-23T23:27:17+00:00,5,p08,4,Spain,Saudi Arabia,Group H,4-0,3-0,2
+2026-06-23T23:27:17+00:00,5,p05,4,Spain,Saudi Arabia,Group H,4-0,3-0,2
+2026-06-23T23:27:17+00:00,5,p01,4,Spain,Saudi Arabia,Group H,4-0,2-0,2
+2026-06-23T23:27:17+00:00,5,p03,4,Spain,Saudi Arabia,Group H,4-0,3-1,2
+2026-06-23T23:27:17+00:00,5,p11,4,Spain,Saudi Arabia,Group H,4-0,4-2,2
+2026-06-23T23:27:17+00:00,5,self,4,Spain,Saudi Arabia,Group H,4-0,3-0,2
+2026-06-23T23:27:17+00:00,5,p10,4,Spain,Saudi Arabia,Group H,4-0,2-1,2
+2026-06-23T23:27:17+00:00,5,p09,4,Spain,Saudi Arabia,Group H,4-0,4-1,2
+2026-06-23T23:27:17+00:00,5,p06,4,Spain,Saudi Arabia,Group H,4-0,6-0,2
+2026-06-23T23:27:17+00:00,5,p04,4,Spain,Saudi Arabia,Group H,4-0,3-2,2
+2026-06-23T23:27:17+00:00,5,p07,5,Belgium,Iran,Group G,0-0,2-1,0
+2026-06-23T23:27:17+00:00,5,p02,5,Belgium,Iran,Group G,0-0,3-0,0
+2026-06-23T23:27:17+00:00,5,p08,5,Belgium,Iran,Group G,0-0,2-1,0
+2026-06-23T23:27:17+00:00,5,p05,5,Belgium,Iran,Group G,0-0,3-1,0
+2026-06-23T23:27:17+00:00,5,p01,5,Belgium,Iran,Group G,0-0,1-1,2
+2026-06-23T23:27:17+00:00,5,p03,5,Belgium,Iran,Group G,0-0,2-1,0
+2026-06-23T23:27:17+00:00,5,p11,5,Belgium,Iran,Group G,0-0,2-1,0
+2026-06-23T23:27:17+00:00,5,self,5,Belgium,Iran,Group G,0-0,2-0,0
+2026-06-23T23:27:17+00:00,5,p10,5,Belgium,Iran,Group G,0-0,2-1,0
+2026-06-23T23:27:17+00:00,5,p09,5,Belgium,Iran,Group G,0-0,1-1,2
+2026-06-23T23:27:17+00:00,5,p06,5,Belgium,Iran,Group G,0-0,2-1,0
+2026-06-23T23:27:17+00:00,5,p04,5,Belgium,Iran,Group G,0-0,4-2,0
+2026-06-23T23:27:17+00:00,5,p07,6,Uruguay,Cape Verde,Group H,2-2,3-0,0
+2026-06-23T23:27:17+00:00,5,p02,6,Uruguay,Cape Verde,Group H,2-2,2-1,0
+2026-06-23T23:27:17+00:00,5,p08,6,Uruguay,Cape Verde,Group H,2-2,2-0,0
+2026-06-23T23:27:17+00:00,5,p05,6,Uruguay,Cape Verde,Group H,2-2,2-0,0
+2026-06-23T23:27:17+00:00,5,p01,6,Uruguay,Cape Verde,Group H,2-2,1-0,0
+2026-06-23T23:27:17+00:00,5,p03,6,Uruguay,Cape Verde,Group H,2-2,2-1,0
+2026-06-23T23:27:17+00:00,5,p11,6,Uruguay,Cape Verde,Group H,2-2,1-1,2
+2026-06-23T23:27:17+00:00,5,self,6,Uruguay,Cape Verde,Group H,2-2,1-0,0
+2026-06-23T23:27:17+00:00,5,p10,6,Uruguay,Cape Verde,Group H,2-2,2-2,4
+2026-06-23T23:27:17+00:00,5,p09,6,Uruguay,Cape Verde,Group H,2-2,3-1,0
+2026-06-23T23:27:17+00:00,5,p06,6,Uruguay,Cape Verde,Group H,2-2,2-0,0
+2026-06-23T23:27:17+00:00,5,p04,6,Uruguay,Cape Verde,Group H,2-2,2-2,4
+2026-06-23T23:27:17+00:00,5,p07,7,New Zealand,Egypt,Group G,1-3,1-2,2
+2026-06-23T23:27:17+00:00,5,p02,7,New Zealand,Egypt,Group G,1-3,1-1,0
+2026-06-23T23:27:17+00:00,5,p08,7,New Zealand,Egypt,Group G,1-3,1-1,0
+2026-06-23T23:27:17+00:00,5,p05,7,New Zealand,Egypt,Group G,1-3,1-2,2
+2026-06-23T23:27:17+00:00,5,p01,7,New Zealand,Egypt,Group G,1-3,0-1,2
+2026-06-23T23:27:17+00:00,5,p03,7,New Zealand,Egypt,Group G,1-3,0-1,2
+2026-06-23T23:27:17+00:00,5,p11,7,New Zealand,Egypt,Group G,1-3,3-2,0
+2026-06-23T23:27:17+00:00,5,self,7,New Zealand,Egypt,Group G,1-3,0-1,2
+2026-06-23T23:27:17+00:00,5,p10,7,New Zealand,Egypt,Group G,1-3,2-2,0
+2026-06-23T23:27:17+00:00,5,p09,7,New Zealand,Egypt,Group G,1-3,1-2,2
+2026-06-23T23:27:17+00:00,5,p06,7,New Zealand,Egypt,Group G,1-3,0-1,2
+2026-06-23T23:27:17+00:00,5,p04,7,New Zealand,Egypt,Group G,1-3,1-1,0
+2026-06-24T12:19:47+00:00,6,p07,0,Argentina,Austria,Group J,2-0,2-0,4
+2026-06-24T12:19:47+00:00,6,p02,0,Argentina,Austria,Group J,2-0,2-1,2
+2026-06-24T12:19:47+00:00,6,p08,0,Argentina,Austria,Group J,2-0,3-1,3
+2026-06-24T12:19:47+00:00,6,p05,0,Argentina,Austria,Group J,2-0,3-1,3
+2026-06-24T12:19:47+00:00,6,p01,0,Argentina,Austria,Group J,2-0,2-0,4
+2026-06-24T12:19:47+00:00,6,p03,0,Argentina,Austria,Group J,2-0,3-1,3
+2026-06-24T12:19:47+00:00,6,self,0,Argentina,Austria,Group J,2-0,1-0,2
+2026-06-24T12:19:47+00:00,6,p10,0,Argentina,Austria,Group J,2-0,1-2,0
+2026-06-24T12:19:47+00:00,6,p09,0,Argentina,Austria,Group J,2-0,3-1,3
+2026-06-24T12:19:47+00:00,6,p06,0,Argentina,Austria,Group J,2-0,2-1,2
+2026-06-24T12:19:47+00:00,6,p04,0,Argentina,Austria,Group J,2-0,3-3,0
+2026-06-24T12:19:47+00:00,6,p07,1,France,Iraq,Group I,3-0,7-0,2
+2026-06-24T12:19:47+00:00,6,p02,1,France,Iraq,Group I,3-0,3-0,4
+2026-06-24T12:19:47+00:00,6,p08,1,France,Iraq,Group I,3-0,3-0,4
+2026-06-24T12:19:47+00:00,6,p05,1,France,Iraq,Group I,3-0,4-0,2
+2026-06-24T12:19:47+00:00,6,p01,1,France,Iraq,Group I,3-0,3-0,4
+2026-06-24T12:19:47+00:00,6,p03,1,France,Iraq,Group I,3-0,3-0,4
+2026-06-24T12:19:47+00:00,6,self,1,France,Iraq,Group I,3-0,3-0,4
+2026-06-24T12:19:47+00:00,6,p10,1,France,Iraq,Group I,3-0,3-1,2
+2026-06-24T12:19:47+00:00,6,p09,1,France,Iraq,Group I,3-0,4-0,2
+2026-06-24T12:19:47+00:00,6,p06,1,France,Iraq,Group I,3-0,3-1,2
+2026-06-24T12:19:47+00:00,6,p04,1,France,Iraq,Group I,3-0,2-0,2
+2026-06-24T12:19:47+00:00,6,p07,2,Norway,Senegal,Group I,3-2,1-2,0
+2026-06-24T12:19:47+00:00,6,p02,2,Norway,Senegal,Group I,3-2,1-1,0
+2026-06-24T12:19:47+00:00,6,p08,2,Norway,Senegal,Group I,3-2,2-1,3
+2026-06-24T12:19:47+00:00,6,p05,2,Norway,Senegal,Group I,3-2,2-1,3
+2026-06-24T12:19:47+00:00,6,p03,2,Norway,Senegal,Group I,3-2,2-1,3
+2026-06-24T12:19:47+00:00,6,self,2,Norway,Senegal,Group I,3-2,1-0,3
+2026-06-24T12:19:47+00:00,6,p10,2,Norway,Senegal,Group I,3-2,3-1,2
+2026-06-24T12:19:47+00:00,6,p06,2,Norway,Senegal,Group I,3-2,2-1,3
+2026-06-24T12:19:47+00:00,6,p04,2,Norway,Senegal,Group I,3-2,3-1,2
+2026-06-24T12:19:47+00:00,6,p07,3,Jordan,Algeria,Group J,1-2,1-1,0
+2026-06-24T12:19:47+00:00,6,p02,3,Jordan,Algeria,Group J,1-2,0-2,2
+2026-06-24T12:19:47+00:00,6,p08,3,Jordan,Algeria,Group J,1-2,1-2,4
+2026-06-24T12:19:47+00:00,6,p05,3,Jordan,Algeria,Group J,1-2,1-2,4
+2026-06-24T12:19:47+00:00,6,p03,3,Jordan,Algeria,Group J,1-2,0-1,3
+2026-06-24T12:19:47+00:00,6,self,3,Jordan,Algeria,Group J,1-2,0-1,3
+2026-06-24T12:19:47+00:00,6,p10,3,Jordan,Algeria,Group J,1-2,1-1,0
+2026-06-24T12:19:47+00:00,6,p09,3,Jordan,Algeria,Group J,1-2,1-1,0
+2026-06-24T12:19:47+00:00,6,p06,3,Jordan,Algeria,Group J,1-2,1-2,4
+2026-06-24T12:19:47+00:00,6,p04,3,Jordan,Algeria,Group J,1-2,2-0,0
+2026-06-24T12:19:47+00:00,6,p07,4,Portugal,Uzbekistan,Group K,5-0,4-0,2
+2026-06-24T12:19:47+00:00,6,p02,4,Portugal,Uzbekistan,Group K,5-0,1-0,2
+2026-06-24T12:19:47+00:00,6,p08,4,Portugal,Uzbekistan,Group K,5-0,2-0,2
+2026-06-24T12:19:47+00:00,6,p05,4,Portugal,Uzbekistan,Group K,5-0,3-1,2
+2026-06-24T12:19:47+00:00,6,p01,4,Portugal,Uzbekistan,Group K,5-0,2-0,2
+2026-06-24T12:19:47+00:00,6,p03,4,Portugal,Uzbekistan,Group K,5-0,3-1,2
+2026-06-24T12:19:47+00:00,6,p11,4,Portugal,Uzbekistan,Group K,5-0,3-0,2
+2026-06-24T12:19:47+00:00,6,self,4,Portugal,Uzbekistan,Group K,5-0,2-0,2
+2026-06-24T12:19:47+00:00,6,p10,4,Portugal,Uzbekistan,Group K,5-0,2-1,2
+2026-06-24T12:19:47+00:00,6,p06,4,Portugal,Uzbekistan,Group K,5-0,1-0,2
+2026-06-24T12:19:47+00:00,6,p04,4,Portugal,Uzbekistan,Group K,5-0,5-2,2
+2026-06-24T12:19:47+00:00,6,p07,5,England,Ghana,Group L,0-0,2-0,0
+2026-06-24T12:19:47+00:00,6,p02,5,England,Ghana,Group L,0-0,3-1,0
+2026-06-24T12:19:47+00:00,6,p08,5,England,Ghana,Group L,0-0,3-1,0
+2026-06-24T12:19:47+00:00,6,p05,5,England,Ghana,Group L,0-0,3-1,0
+2026-06-24T12:19:47+00:00,6,p01,5,England,Ghana,Group L,0-0,2-0,0
+2026-06-24T12:19:47+00:00,6,p03,5,England,Ghana,Group L,0-0,2-1,0
+2026-06-24T12:19:47+00:00,6,p11,5,England,Ghana,Group L,0-0,2-1,0
+2026-06-24T12:19:47+00:00,6,self,5,England,Ghana,Group L,0-0,2-0,0
+2026-06-24T12:19:47+00:00,6,p10,5,England,Ghana,Group L,0-0,3-1,0
+2026-06-24T12:19:47+00:00,6,p06,5,England,Ghana,Group L,0-0,2-0,0
+2026-06-24T12:19:47+00:00,6,p04,5,England,Ghana,Group L,0-0,3-2,0
+2026-06-24T12:19:47+00:00,6,p07,6,Panama,Croatia,Group L,0-1,0-2,2
+2026-06-24T12:19:47+00:00,6,p02,6,Panama,Croatia,Group L,0-1,0-1,4
+2026-06-24T12:19:47+00:00,6,p08,6,Panama,Croatia,Group L,0-1,1-2,3
+2026-06-24T12:19:47+00:00,6,p05,6,Panama,Croatia,Group L,0-1,0-3,2
+2026-06-24T12:19:47+00:00,6,p01,6,Panama,Croatia,Group L,0-1,0-1,4
+2026-06-24T12:19:47+00:00,6,p03,6,Panama,Croatia,Group L,0-1,0-2,2
+2026-06-23T23:25:26+00:00,6,p11,6,Panama,Croatia,Group L,0-0,1-1,2
+2026-06-24T12:19:47+00:00,6,self,6,Panama,Croatia,Group L,0-1,0-1,4
+2026-06-24T12:19:47+00:00,6,p10,6,Panama,Croatia,Group L,0-1,1-3,2
+2026-06-24T12:19:47+00:00,6,p06,6,Panama,Croatia,Group L,0-1,1-2,3
+2026-06-23T23:25:26+00:00,6,p04,6,Panama,Croatia,Group L,0-0,4-4,2
+2026-06-24T12:19:47+00:00,6,p07,7,Colombia,DR Congo,Group K,1-0,1-1,0
+2026-06-24T12:19:47+00:00,6,p02,7,Colombia,DR Congo,Group K,1-0,3-1,2
+2026-06-24T12:19:47+00:00,6,p08,7,Colombia,DR Congo,Group K,1-0,2-0,2
+2026-06-24T12:19:47+00:00,6,p05,7,Colombia,DR Congo,Group K,1-0,2-1,3
+2026-06-24T12:19:47+00:00,6,p01,7,Colombia,DR Congo,Group K,1-0,1-1,0
+2026-06-24T12:19:47+00:00,6,p03,7,Colombia,DR Congo,Group K,1-0,2-0,2
+2026-06-24T12:19:47+00:00,6,p11,7,Colombia,DR Congo,Group K,1-0,2-3,0
+2026-06-24T12:19:47+00:00,6,self,7,Colombia,DR Congo,Group K,1-0,1-0,4
+2026-06-24T12:19:47+00:00,6,p10,7,Colombia,DR Congo,Group K,1-0,2-1,3
+2026-06-24T12:19:47+00:00,6,p06,7,Colombia,DR Congo,Group K,1-0,2-1,3
+2026-06-24T12:19:47+00:00,6,p04,7,Colombia,DR Congo,Group K,1-0,3-1,2
+2026-06-25T11:15:39+00:00,7,p07,0,Bosnien-Herzegowina,Qatar,Group B,3-1,3-0,2
+2026-06-25T11:15:39+00:00,7,p02,0,Bosnien-Herzegowina,Qatar,Group B,3-1,2-1,2
+2026-06-25T11:15:39+00:00,7,p08,0,Bosnien-Herzegowina,Qatar,Group B,3-1,2-1,2
+2026-06-25T11:15:39+00:00,7,p05,0,Bosnien-Herzegowina,Qatar,Group B,3-1,2-1,2
+2026-06-25T11:15:39+00:00,7,p01,0,Bosnien-Herzegowina,Qatar,Group B,3-1,1-0,2
+2026-06-25T11:15:39+00:00,7,p11,0,Bosnien-Herzegowina,Qatar,Group B,3-1,2-2,0
+2026-06-25T11:15:39+00:00,7,self,0,Bosnien-Herzegowina,Qatar,Group B,3-1,2-0,3
+2026-06-25T11:15:39+00:00,7,p10,0,Bosnien-Herzegowina,Qatar,Group B,3-1,2-1,2
+2026-06-25T11:15:39+00:00,7,p09,0,Bosnien-Herzegowina,Qatar,Group B,3-1,2-0,3
+2026-06-25T11:15:39+00:00,7,p06,0,Bosnien-Herzegowina,Qatar,Group B,3-1,2-1,2
+2026-06-25T11:15:39+00:00,7,p04,0,Bosnien-Herzegowina,Qatar,Group B,3-1,1-1,0
+2026-06-25T11:15:39+00:00,7,p07,1,Switzerland,Canada,Group B,2-1,2-2,0
+2026-06-25T11:15:39+00:00,7,p02,1,Switzerland,Canada,Group B,2-1,2-1,4
+2026-06-25T11:15:39+00:00,7,p08,1,Switzerland,Canada,Group B,2-1,1-1,0
+2026-06-25T11:15:39+00:00,7,p05,1,Switzerland,Canada,Group B,2-1,1-1,0
+2026-06-25T11:15:39+00:00,7,p01,1,Switzerland,Canada,Group B,2-1,2-1,4
+2026-06-25T11:15:39+00:00,7,p11,1,Switzerland,Canada,Group B,2-1,2-1,4
+2026-06-25T11:15:39+00:00,7,self,1,Switzerland,Canada,Group B,2-1,1-0,3
+2026-06-25T11:15:39+00:00,7,p10,1,Switzerland,Canada,Group B,2-1,1-0,3
+2026-06-25T11:15:39+00:00,7,p09,1,Switzerland,Canada,Group B,2-1,1-2,0
+2026-06-25T11:15:39+00:00,7,p06,1,Switzerland,Canada,Group B,2-1,2-1,4
+2026-06-25T11:15:39+00:00,7,p04,1,Switzerland,Canada,Group B,2-1,3-5,0
+2026-06-25T11:15:39+00:00,7,p07,2,Morocco,Haiti,Group C,4-2,3-0,2
+2026-06-25T11:15:39+00:00,7,p02,2,Morocco,Haiti,Group C,4-2,2-0,3
+2026-06-25T11:15:39+00:00,7,p08,2,Morocco,Haiti,Group C,4-2,2-0,3
+2026-06-25T11:15:39+00:00,7,p05,2,Morocco,Haiti,Group C,4-2,3-0,2
+2026-06-25T11:15:39+00:00,7,p01,2,Morocco,Haiti,Group C,4-2,2-0,3
+2026-06-25T11:15:39+00:00,7,p11,2,Morocco,Haiti,Group C,4-2,3-1,3
+2026-06-25T11:15:39+00:00,7,self,2,Morocco,Haiti,Group C,4-2,2-0,3
+2026-06-25T11:15:39+00:00,7,p10,2,Morocco,Haiti,Group C,4-2,1-1,0
+2026-06-25T11:15:39+00:00,7,p09,2,Morocco,Haiti,Group C,4-2,4-0,2
+2026-06-25T11:15:39+00:00,7,p06,2,Morocco,Haiti,Group C,4-2,3-0,2
+2026-06-25T11:15:39+00:00,7,p04,2,Morocco,Haiti,Group C,4-2,1-2,0
+2026-06-25T11:15:39+00:00,7,p07,3,Scotland,Brazil,Group C,0-3,0-3,4
+2026-06-25T11:15:39+00:00,7,p02,3,Scotland,Brazil,Group C,0-3,0-1,2
+2026-06-25T11:15:39+00:00,7,p08,3,Scotland,Brazil,Group C,0-3,1-2,2
+2026-06-25T11:15:39+00:00,7,p05,3,Scotland,Brazil,Group C,0-3,1-3,2
+2026-06-25T11:15:39+00:00,7,p01,3,Scotland,Brazil,Group C,0-3,0-3,4
+2026-06-25T11:15:39+00:00,7,p11,3,Scotland,Brazil,Group C,0-3,1-2,2
+2026-06-25T11:15:39+00:00,7,self,3,Scotland,Brazil,Group C,0-3,0-2,2
+2026-06-25T11:15:39+00:00,7,p10,3,Scotland,Brazil,Group C,0-3,2-2,0
+2026-06-25T11:15:39+00:00,7,p09,3,Scotland,Brazil,Group C,0-3,1-5,2
+2026-06-25T11:15:39+00:00,7,p06,3,Scotland,Brazil,Group C,0-3,0-2,2
+2026-06-25T11:15:39+00:00,7,p04,3,Scotland,Brazil,Group C,0-3,2-2,0
+2026-06-25T11:15:39+00:00,7,p07,4,South Africa,South Korea,Group A,1-0,0-3,0
+2026-06-25T11:15:39+00:00,7,p02,4,South Africa,South Korea,Group A,1-0,1-1,0
+2026-06-25T11:15:39+00:00,7,p08,4,South Africa,South Korea,Group A,1-0,0-1,0
+2026-06-25T11:15:39+00:00,7,p05,4,South Africa,South Korea,Group A,1-0,1-2,0
+2026-06-25T11:15:39+00:00,7,p01,4,South Africa,South Korea,Group A,1-0,0-2,0
+2026-06-25T11:15:39+00:00,7,p03,4,South Africa,South Korea,Group A,1-0,3-1,2
+2026-06-25T11:15:39+00:00,7,p11,4,South Africa,South Korea,Group A,1-0,1-1,0
+2026-06-25T11:15:39+00:00,7,self,4,South Africa,South Korea,Group A,1-0,0-1,0
+2026-06-25T11:15:39+00:00,7,p10,4,South Africa,South Korea,Group A,1-0,1-0,4
+2026-06-25T11:15:39+00:00,7,p09,4,South Africa,South Korea,Group A,1-0,1-1,0
+2026-06-25T11:15:39+00:00,7,p06,4,South Africa,South Korea,Group A,1-0,1-2,0
+2026-06-25T11:15:39+00:00,7,p04,4,South Africa,South Korea,Group A,1-0,2-4,0
+2026-06-25T11:15:39+00:00,7,p07,5,Czech Republic,Mexico,Group A,0-3,0-2,2
+2026-06-25T11:15:39+00:00,7,p02,5,Czech Republic,Mexico,Group A,0-3,1-2,2
+2026-06-25T11:15:39+00:00,7,p08,5,Czech Republic,Mexico,Group A,0-3,1-2,2
+2026-06-25T11:15:39+00:00,7,p05,5,Czech Republic,Mexico,Group A,0-3,1-2,2
+2026-06-25T11:15:39+00:00,7,p01,5,Czech Republic,Mexico,Group A,0-3,0-1,2
+2026-06-25T11:15:39+00:00,7,p03,5,Czech Republic,Mexico,Group A,0-3,1-2,2
+2026-06-25T11:15:39+00:00,7,p11,5,Czech Republic,Mexico,Group A,0-3,1-2,2
+2026-06-25T11:15:39+00:00,7,self,5,Czech Republic,Mexico,Group A,0-3,0-1,2
+2026-06-25T11:15:39+00:00,7,p10,5,Czech Republic,Mexico,Group A,0-3,1-0,0
+2026-06-25T11:15:39+00:00,7,p09,5,Czech Republic,Mexico,Group A,0-3,2-1,0
+2026-06-25T11:15:39+00:00,7,p06,5,Czech Republic,Mexico,Group A,0-3,0-1,2
+2026-06-25T11:15:39+00:00,7,p04,5,Czech Republic,Mexico,Group A,0-3,1-2,2
+2026-06-26T11:39:18+00:00,8,p07,0,Curaçao,Ivory Coast,Group E,0-2,0-2,4
+2026-06-26T11:39:18+00:00,8,p02,0,Curaçao,Ivory Coast,Group E,0-2,1-2,2
+2026-06-26T11:39:18+00:00,8,p08,0,Curaçao,Ivory Coast,Group E,0-2,0-2,4
+2026-06-26T11:39:18+00:00,8,p05,0,Curaçao,Ivory Coast,Group E,0-2,0-2,4
+2026-06-26T11:39:18+00:00,8,p01,0,Curaçao,Ivory Coast,Group E,0-2,0-1,2
+2026-06-26T11:39:18+00:00,8,p03,0,Curaçao,Ivory Coast,Group E,0-2,1-2,2
+2026-06-26T11:39:18+00:00,8,p11,0,Curaçao,Ivory Coast,Group E,0-2,2-1,0
+2026-06-26T11:39:18+00:00,8,self,0,Curaçao,Ivory Coast,Group E,0-2,0-2,4
+2026-06-26T11:39:18+00:00,8,p10,0,Curaçao,Ivory Coast,Group E,0-2,1-1,0
+2026-06-26T11:39:18+00:00,8,p09,0,Curaçao,Ivory Coast,Group E,0-2,1-2,2
+2026-06-26T11:39:18+00:00,8,p06,0,Curaçao,Ivory Coast,Group E,0-2,0-2,4
+2026-06-26T11:39:18+00:00,8,p04,0,Curaçao,Ivory Coast,Group E,0-2,0-1,2
+2026-06-26T11:39:18+00:00,8,p07,1,Ecuador,Germany,Group E,2-1,0-3,0
+2026-06-26T11:39:18+00:00,8,p02,1,Ecuador,Germany,Group E,2-1,0-1,0
+2026-06-26T11:39:18+00:00,8,p08,1,Ecuador,Germany,Group E,2-1,0-3,0
+2026-06-26T11:39:18+00:00,8,p05,1,Ecuador,Germany,Group E,2-1,1-2,0
+2026-06-26T11:39:18+00:00,8,p01,1,Ecuador,Germany,Group E,2-1,0-2,0
+2026-06-26T11:39:18+00:00,8,p03,1,Ecuador,Germany,Group E,2-1,2-3,0
+2026-06-26T11:39:18+00:00,8,p11,1,Ecuador,Germany,Group E,2-1,2-5,0
+2026-06-26T11:39:18+00:00,8,self,1,Ecuador,Germany,Group E,2-1,0-2,0
+2026-06-26T11:39:18+00:00,8,p10,1,Ecuador,Germany,Group E,2-1,1-3,0
+2026-06-26T11:39:18+00:00,8,p09,1,Ecuador,Germany,Group E,2-1,1-3,0
+2026-06-26T11:39:18+00:00,8,p06,1,Ecuador,Germany,Group E,2-1,1-3,0
+2026-06-26T11:39:18+00:00,8,p04,1,Ecuador,Germany,Group E,2-1,0-2,0
+2026-06-26T11:39:18+00:00,8,p07,2,Japan,Sweden,Group F,1-1,2-1,0
+2026-06-26T11:39:18+00:00,8,p02,2,Japan,Sweden,Group F,1-1,2-1,0
+2026-06-26T11:39:18+00:00,8,p08,2,Japan,Sweden,Group F,1-1,2-1,0
+2026-06-26T11:39:18+00:00,8,p05,2,Japan,Sweden,Group F,1-1,2-1,0
+2026-06-26T11:39:18+00:00,8,p01,2,Japan,Sweden,Group F,1-1,1-1,4
+2026-06-26T11:39:18+00:00,8,p03,2,Japan,Sweden,Group F,1-1,0-1,0
+2026-06-26T11:39:18+00:00,8,p11,2,Japan,Sweden,Group F,1-1,1-3,0
+2026-06-26T11:39:18+00:00,8,self,2,Japan,Sweden,Group F,1-1,1-0,0
+2026-06-26T11:39:18+00:00,8,p10,2,Japan,Sweden,Group F,1-1,1-1,4
+2026-06-26T11:39:18+00:00,8,p09,2,Japan,Sweden,Group F,1-1,2-1,0
+2026-06-26T11:39:18+00:00,8,p06,2,Japan,Sweden,Group F,1-1,0-1,0
+2026-06-26T11:39:18+00:00,8,p04,2,Japan,Sweden,Group F,1-1,3-1,0
+2026-06-26T11:39:18+00:00,8,p07,3,Tunisia,Netherlands,Group F,1-3,0-3,2
+2026-06-26T11:39:18+00:00,8,p02,3,Tunisia,Netherlands,Group F,1-3,0-2,3
+2026-06-26T11:39:18+00:00,8,p08,3,Tunisia,Netherlands,Group F,1-3,0-3,2
+2026-06-26T11:39:18+00:00,8,p05,3,Tunisia,Netherlands,Group F,1-3,0-3,2
+2026-06-26T11:39:18+00:00,8,p01,3,Tunisia,Netherlands,Group F,1-3,0-2,3
+2026-06-26T11:39:18+00:00,8,p03,3,Tunisia,Netherlands,Group F,1-3,2-1,0
+2026-06-26T11:39:18+00:00,8,p11,3,Tunisia,Netherlands,Group F,1-3,1-2,2
+2026-06-26T11:39:18+00:00,8,self,3,Tunisia,Netherlands,Group F,1-3,0-3,2
+2026-06-26T11:39:18+00:00,8,p10,3,Tunisia,Netherlands,Group F,1-3,1-3,4
+2026-06-26T11:39:18+00:00,8,p09,3,Tunisia,Netherlands,Group F,1-3,0-4,2
+2026-06-26T11:39:18+00:00,8,p06,3,Tunisia,Netherlands,Group F,1-3,1-2,2
+2026-06-26T11:39:18+00:00,8,p04,3,Tunisia,Netherlands,Group F,1-3,3-2,0
+2026-06-26T11:39:18+00:00,8,p07,4,Paraguay,Australia,Group D,0-0,1-1,2
+2026-06-26T11:39:18+00:00,8,p02,4,Paraguay,Australia,Group D,0-0,1-1,2
+2026-06-26T11:39:18+00:00,8,p08,4,Paraguay,Australia,Group D,0-0,1-1,2
+2026-06-26T11:39:18+00:00,8,p05,4,Paraguay,Australia,Group D,0-0,2-1,0
+2026-06-26T11:39:18+00:00,8,p01,4,Paraguay,Australia,Group D,0-0,0-1,0
+2026-06-26T11:39:18+00:00,8,p03,4,Paraguay,Australia,Group D,0-0,1-1,2
+2026-06-26T11:39:18+00:00,8,p11,4,Paraguay,Australia,Group D,0-0,1-3,0
+2026-06-26T11:39:18+00:00,8,self,4,Paraguay,Australia,Group D,0-0,1-0,0
+2026-06-26T11:39:18+00:00,8,p10,4,Paraguay,Australia,Group D,0-0,1-2,0
+2026-06-26T11:39:18+00:00,8,p09,4,Paraguay,Australia,Group D,0-0,1-1,2
+2026-06-26T11:39:18+00:00,8,p06,4,Paraguay,Australia,Group D,0-0,1-0,0
+2026-06-26T11:39:18+00:00,8,p04,4,Paraguay,Australia,Group D,0-0,1-4,0
+2026-06-26T11:39:18+00:00,8,p07,5,Türkiye,USA,Group D,3-2,0-3,0
+2026-06-26T11:39:18+00:00,8,p02,5,Türkiye,USA,Group D,3-2,1-3,0
+2026-06-26T11:39:18+00:00,8,p08,5,Türkiye,USA,Group D,3-2,1-3,0
+2026-06-26T11:39:18+00:00,8,p05,5,Türkiye,USA,Group D,3-2,1-3,0
+2026-06-26T11:39:18+00:00,8,p01,5,Türkiye,USA,Group D,3-2,1-2,0
+2026-06-26T11:39:18+00:00,8,p03,5,Türkiye,USA,Group D,3-2,1-2,0
+2026-06-26T11:39:18+00:00,8,p11,5,Türkiye,USA,Group D,3-2,1-2,0
+2026-06-26T11:39:18+00:00,8,self,5,Türkiye,USA,Group D,3-2,1-2,0
+2026-06-26T11:39:18+00:00,8,p10,5,Türkiye,USA,Group D,3-2,2-2,0
+2026-06-26T11:39:18+00:00,8,p09,5,Türkiye,USA,Group D,3-2,0-3,0
+2026-06-26T11:39:18+00:00,8,p06,5,Türkiye,USA,Group D,3-2,1-2,0
+2026-06-26T11:39:18+00:00,8,p04,5,Türkiye,USA,Group D,3-2,2-2,0
+2026-06-27T16:02:43+00:00,9,p07,0,Norway,France,Group I,1-4,2-4,2
+2026-06-27T16:02:43+00:00,9,p02,0,Norway,France,Group I,1-4,1-2,2
+2026-06-27T16:02:43+00:00,9,p05,0,Norway,France,Group I,1-4,1-2,2
+2026-06-27T16:02:43+00:00,9,p01,0,Norway,France,Group I,1-4,0-3,3
+2026-06-27T16:02:43+00:00,9,p03,0,Norway,France,Group I,1-4,1-3,2
+2026-06-27T16:02:43+00:00,9,p11,0,Norway,France,Group I,1-4,2-3,2
+2026-06-27T16:02:43+00:00,9,self,0,Norway,France,Group I,1-4,1-2,2
+2026-06-27T16:02:43+00:00,9,p10,0,Norway,France,Group I,1-4,3-4,2
+2026-06-27T16:02:43+00:00,9,p09,0,Norway,France,Group I,1-4,2-3,2
+2026-06-27T16:02:43+00:00,9,p06,0,Norway,France,Group I,1-4,2-3,2
+2026-06-27T16:02:43+00:00,9,p04,0,Norway,France,Group I,1-4,1-3,2
+2026-06-27T16:02:43+00:00,9,p07,1,Senegal,Iraq,Group I,5-0,2-0,2
+2026-06-27T16:02:43+00:00,9,p02,1,Senegal,Iraq,Group I,5-0,2-0,2
+2026-06-27T16:02:43+00:00,9,p05,1,Senegal,Iraq,Group I,5-0,2-0,2
+2026-06-27T16:02:43+00:00,9,p03,1,Senegal,Iraq,Group I,5-0,0-2,0
+2026-06-27T16:02:43+00:00,9,p11,1,Senegal,Iraq,Group I,5-0,1-1,0
+2026-06-27T16:02:43+00:00,9,self,1,Senegal,Iraq,Group I,5-0,2-0,2
+2026-06-27T16:02:43+00:00,9,p10,1,Senegal,Iraq,Group I,5-0,1-2,0
+2026-06-27T16:02:43+00:00,9,p09,1,Senegal,Iraq,Group I,5-0,1-1,0
+2026-06-27T16:02:43+00:00,9,p06,1,Senegal,Iraq,Group I,5-0,1-0,2
+2026-06-27T16:02:43+00:00,9,p04,1,Senegal,Iraq,Group I,5-0,0-1,0
+2026-06-27T16:02:43+00:00,9,p07,2,Uruguay,Spain,Group H,0-1,1-3,2
+2026-06-27T16:02:43+00:00,9,p02,2,Uruguay,Spain,Group H,0-1,1-2,3
+2026-06-27T16:02:43+00:00,9,p05,2,Uruguay,Spain,Group H,0-1,0-3,2
+2026-06-27T16:02:43+00:00,9,p01,2,Uruguay,Spain,Group H,0-1,1-2,3
+2026-06-27T16:02:43+00:00,9,p03,2,Uruguay,Spain,Group H,0-1,0-3,2
+2026-06-27T16:02:43+00:00,9,p11,2,Uruguay,Spain,Group H,0-1,1-3,2
+2026-06-27T16:02:43+00:00,9,self,2,Uruguay,Spain,Group H,0-1,0-1,4
+2026-06-27T16:02:43+00:00,9,p10,2,Uruguay,Spain,Group H,0-1,1-2,3
+2026-06-27T16:02:43+00:00,9,p09,2,Uruguay,Spain,Group H,0-1,2-4,2
+2026-06-27T16:02:43+00:00,9,p06,2,Uruguay,Spain,Group H,0-1,1-2,3
+2026-06-27T16:02:43+00:00,9,p04,2,Uruguay,Spain,Group H,0-1,2-4,2
+2026-06-27T16:02:43+00:00,9,p07,3,Cape Verde,Saudi Arabia,Group H,0-0,0-0,4
+2026-06-27T16:02:43+00:00,9,p02,3,Cape Verde,Saudi Arabia,Group H,0-0,1-1,2
+2026-06-27T16:02:43+00:00,9,p05,3,Cape Verde,Saudi Arabia,Group H,0-0,1-1,2
+2026-06-27T16:02:43+00:00,9,p01,3,Cape Verde,Saudi Arabia,Group H,0-0,0-0,4
+2026-06-27T16:02:43+00:00,9,p03,3,Cape Verde,Saudi Arabia,Group H,0-0,1-2,0
+2026-06-27T16:02:43+00:00,9,p11,3,Cape Verde,Saudi Arabia,Group H,0-0,2-2,2
+2026-06-27T16:02:43+00:00,9,self,3,Cape Verde,Saudi Arabia,Group H,0-0,1-0,0
+2026-06-27T16:02:43+00:00,9,p10,3,Cape Verde,Saudi Arabia,Group H,0-0,2-3,0
+2026-06-27T16:02:43+00:00,9,p09,3,Cape Verde,Saudi Arabia,Group H,0-0,1-0,0
+2026-06-27T16:02:43+00:00,9,p06,3,Cape Verde,Saudi Arabia,Group H,0-0,0-0,4
+2026-06-27T16:02:43+00:00,9,p04,3,Cape Verde,Saudi Arabia,Group H,0-0,2-3,0
+2026-06-27T16:02:43+00:00,9,p07,4,New Zealand,Belgium,Group G,1-5,1-1,0
+2026-06-27T16:02:43+00:00,9,p02,4,New Zealand,Belgium,Group G,1-5,0-1,2
+2026-06-27T16:02:43+00:00,9,p05,4,New Zealand,Belgium,Group G,1-5,0-3,2
+2026-06-27T16:02:43+00:00,9,p01,4,New Zealand,Belgium,Group G,1-5,0-2,2
+2026-06-27T16:02:43+00:00,9,p03,4,New Zealand,Belgium,Group G,1-5,1-1,0
+2026-06-27T16:02:43+00:00,9,p11,4,New Zealand,Belgium,Group G,1-5,3-2,0
+2026-06-27T16:02:43+00:00,9,self,4,New Zealand,Belgium,Group G,1-5,0-2,2
+2026-06-27T16:02:43+00:00,9,p10,4,New Zealand,Belgium,Group G,1-5,1-1,0
+2026-06-27T16:02:43+00:00,9,p09,4,New Zealand,Belgium,Group G,1-5,1-2,2
+2026-06-27T16:02:43+00:00,9,p06,4,New Zealand,Belgium,Group G,1-5,0-1,2
+2026-06-27T16:02:43+00:00,9,p04,4,New Zealand,Belgium,Group G,1-5,2-1,0
+2026-06-27T16:02:43+00:00,9,p07,5,Egypt,Iran,Group G,1-1,3-0,0
+2026-06-27T16:02:43+00:00,9,p02,5,Egypt,Iran,Group G,1-1,1-1,4
+2026-06-27T16:02:43+00:00,9,p05,5,Egypt,Iran,Group G,1-1,1-1,4
+2026-06-27T16:02:43+00:00,9,p01,5,Egypt,Iran,Group G,1-1,1-0,0
+2026-06-27T16:02:43+00:00,9,p03,5,Egypt,Iran,Group G,1-1,2-1,0
+2026-06-27T16:02:43+00:00,9,p11,5,Egypt,Iran,Group G,1-1,1-1,4
+2026-06-27T16:02:43+00:00,9,self,5,Egypt,Iran,Group G,1-1,1-0,0
+2026-06-27T16:02:43+00:00,9,p10,5,Egypt,Iran,Group G,1-1,3-2,0
+2026-06-27T16:02:43+00:00,9,p09,5,Egypt,Iran,Group G,1-1,3-0,0
+2026-06-27T16:02:43+00:00,9,p06,5,Egypt,Iran,Group G,1-1,2-1,0
+2026-06-27T16:02:43+00:00,9,p04,5,Egypt,Iran,Group G,1-1,3-1,0
+2026-06-28T13:35:55+00:00,10,p07,0,Croatia,Ghana,Group L,2-1,1-1,0
+2026-06-28T13:35:55+00:00,10,p02,0,Croatia,Ghana,Group L,2-1,2-1,4
+2026-06-28T13:35:55+00:00,10,p05,0,Croatia,Ghana,Group L,2-1,2-1,4
+2026-06-28T13:35:55+00:00,10,p01,0,Croatia,Ghana,Group L,2-1,2-1,4
+2026-06-28T13:35:55+00:00,10,p03,0,Croatia,Ghana,Group L,2-1,1-0,3
+2026-06-28T13:35:55+00:00,10,p11,0,Croatia,Ghana,Group L,2-1,2-2,0
+2026-06-28T13:35:55+00:00,10,self,0,Croatia,Ghana,Group L,2-1,1-0,3
+2026-06-28T13:35:55+00:00,10,p10,0,Croatia,Ghana,Group L,2-1,2-1,4
+2026-06-28T13:35:55+00:00,10,p06,0,Croatia,Ghana,Group L,2-1,2-1,4
+2026-06-28T13:35:55+00:00,10,p04,0,Croatia,Ghana,Group L,2-1,0-1,0
+2026-06-28T13:35:55+00:00,10,p07,1,Panama,England,Group L,0-2,0-5,2
+2026-06-28T13:35:55+00:00,10,p02,1,Panama,England,Group L,0-2,0-3,2
+2026-06-28T13:35:55+00:00,10,p05,1,Panama,England,Group L,0-2,0-3,2
+2026-06-28T13:35:55+00:00,10,p01,1,Panama,England,Group L,0-2,0-2,4
+2026-06-28T13:35:55+00:00,10,p03,1,Panama,England,Group L,0-2,0-1,2
+2026-06-28T13:35:55+00:00,10,p11,1,Panama,England,Group L,0-2,1-3,3
+2026-06-28T13:35:55+00:00,10,self,1,Panama,England,Group L,0-2,0-2,4
+2026-06-28T13:35:55+00:00,10,p10,1,Panama,England,Group L,0-2,1-3,3
+2026-06-28T13:35:55+00:00,10,p06,1,Panama,England,Group L,0-2,0-2,4
+2026-06-28T13:35:55+00:00,10,p04,1,Panama,England,Group L,0-2,1-5,2
+2026-06-28T13:35:55+00:00,10,p07,2,DR Congo,Uzbekistan,Group K,3-1,1-0,2
+2026-06-28T13:35:55+00:00,10,p02,2,DR Congo,Uzbekistan,Group K,3-1,2-2,0
+2026-06-28T13:35:55+00:00,10,p05,2,DR Congo,Uzbekistan,Group K,3-1,1-0,2
+2026-06-28T13:35:55+00:00,10,p01,2,DR Congo,Uzbekistan,Group K,3-1,1-0,2
+2026-06-28T13:35:55+00:00,10,p03,2,DR Congo,Uzbekistan,Group K,3-1,3-1,4
+2026-06-28T13:35:55+00:00,10,p11,2,DR Congo,Uzbekistan,Group K,3-1,1-1,0
+2026-06-28T13:35:55+00:00,10,self,2,DR Congo,Uzbekistan,Group K,3-1,1-0,2
+2026-06-28T13:35:55+00:00,10,p10,2,DR Congo,Uzbekistan,Group K,3-1,1-1,0
+2026-06-28T13:35:55+00:00,10,p06,2,DR Congo,Uzbekistan,Group K,3-1,2-0,3
+2026-06-28T13:35:55+00:00,10,p04,2,DR Congo,Uzbekistan,Group K,3-1,1-1,0
+2026-06-28T13:35:55+00:00,10,p07,3,Colombia,Portugal,Group K,0-0,1-2,0
+2026-06-28T13:35:55+00:00,10,p02,3,Colombia,Portugal,Group K,0-0,1-2,0
+2026-06-28T13:35:55+00:00,10,p05,3,Colombia,Portugal,Group K,0-0,1-2,0
+2026-06-28T13:35:55+00:00,10,p01,3,Colombia,Portugal,Group K,0-0,1-2,0
+2026-06-28T13:35:55+00:00,10,p03,3,Colombia,Portugal,Group K,0-0,0-3,0
+2026-06-28T13:35:55+00:00,10,p11,3,Colombia,Portugal,Group K,0-0,1-3,0
+2026-06-28T13:35:55+00:00,10,self,3,Colombia,Portugal,Group K,0-0,0-1,0
+2026-06-28T13:35:55+00:00,10,p10,3,Colombia,Portugal,Group K,0-0,1-2,0
+2026-06-28T13:35:55+00:00,10,p06,3,Colombia,Portugal,Group K,0-0,1-2,0
+2026-06-28T13:35:55+00:00,10,p04,3,Colombia,Portugal,Group K,0-0,3-5,0
+2026-06-28T13:35:55+00:00,10,p07,4,Algeria,Austria,Group J,3-3,0-0,2
+2026-06-28T13:35:55+00:00,10,p02,4,Algeria,Austria,Group J,3-3,1-2,0
+2026-06-28T13:35:55+00:00,10,p05,4,Algeria,Austria,Group J,3-3,1-2,0
+2026-06-28T13:35:55+00:00,10,p03,4,Algeria,Austria,Group J,3-3,1-2,0
+2026-06-28T13:35:55+00:00,10,p11,4,Algeria,Austria,Group J,3-3,2-3,0
+2026-06-28T13:35:55+00:00,10,self,4,Algeria,Austria,Group J,3-3,0-1,0
+2026-06-28T13:35:55+00:00,10,p10,4,Algeria,Austria,Group J,3-3,1-2,0
+2026-06-28T13:35:55+00:00,10,p06,4,Algeria,Austria,Group J,3-3,0-1,0
+2026-06-28T13:35:55+00:00,10,p04,4,Algeria,Austria,Group J,3-3,1-3,0
+2026-06-28T13:35:55+00:00,10,p07,5,Jordan,Argentina,Group J,1-3,0-4,2
+2026-06-28T13:35:55+00:00,10,p02,5,Jordan,Argentina,Group J,1-3,1-3,4
+2026-06-28T13:35:55+00:00,10,p05,5,Jordan,Argentina,Group J,1-3,0-2,3
+2026-06-28T13:35:55+00:00,10,p03,5,Jordan,Argentina,Group J,1-3,0-2,3
+2026-06-28T13:35:55+00:00,10,p11,5,Jordan,Argentina,Group J,1-3,1-4,2
+2026-06-28T13:35:55+00:00,10,self,5,Jordan,Argentina,Group J,1-3,0-2,3
+2026-06-28T13:35:55+00:00,10,p10,5,Jordan,Argentina,Group J,1-3,1-1,0
+2026-06-28T13:35:55+00:00,10,p06,5,Jordan,Argentina,Group J,1-3,0-3,2
+2026-06-28T13:35:55+00:00,10,p04,5,Jordan,Argentina,Group J,1-3,0-1,2
