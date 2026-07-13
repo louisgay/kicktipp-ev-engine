@@ -22,6 +22,14 @@ no goal-difference tier for draws**. Because of that skew, the score that
 low-variance lines (1-0, 2-1, 1-1) win points more reliably than a "most probable
 score" model would suggest.
 
+![P(scoreline) vs E[points] for one match](docs/img/ev_matrix.png)
+
+*The whole idea in one picture. Left: the most **likely** scoreline (here 1-1, a
+draw). Right: the scoreline that maximises **expected points** (here 1-0). They
+disagree — because a non-exact draw scores only 2 with no goal-difference tier, the
+engine picks the decisive 1-0, not the likelier draw. We play the right-hand cell,
+never the left. Reproduce with `python -m analysis.figures.ev_matrix`.*
+
 This engine turns **market odds into fair probabilities** (removing the bookmaker
 margin), builds a full **Dixon-Coles score matrix** for each match, and picks the
 scoreline that **maximises expected points under the 4/3/2/0 rules**. On top of the
