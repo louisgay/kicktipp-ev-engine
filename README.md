@@ -10,6 +10,14 @@ pool (Kicktipp), with a behavioral-edge study of opponents' picks.**
 Quantitative, market-driven, and deliberately honest about what it can and cannot
 prove. All personal data has been pseudonymised; no pool member is identifiable.
 
+**▶ Interactive demo:** change the market inputs and watch the score matrix, the
+expected-points table and the EV-max pick recompute live through the real engine.
+```bash
+pip install -e ".[app]" && streamlit run app/streamlit_app.py
+```
+See [`app/README.md`](app/README.md) for the three tabs and one-click Streamlit
+Cloud deploy.
+
 ---
 
 ## What is this?

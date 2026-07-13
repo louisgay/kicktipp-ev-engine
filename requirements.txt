@@ -1,0 +1,4 @@
+# Streamlit Community Cloud installs from this file at deploy time.
+# It installs the package itself plus the interactive-app extras (streamlit, plotly).
+# For local dev use `pip install -e ".[dev]"` instead (see README).
+.[app]
