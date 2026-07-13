@@ -1,4 +1,14 @@
 # Streamlit Community Cloud installs from this file at deploy time.
-# It installs the package itself plus the interactive-app extras (streamlit, plotly).
-# For local dev use `pip install -e ".[dev]"` instead (see README).
-.[app]
+#
+# The interactive demo only needs the numeric + UI stack. It imports `src` directly
+# from the cloned repo (app/streamlit_app.py puts the repo root on sys.path), so we
+# deliberately do NOT install the package itself here: that would pull scraping-only
+# dependencies such as lxml, which has no wheel on Cloud's Python and fails to build
+# from source.
+#
+# For local development use `pip install -e ".[dev,app]"` instead (see README).
+streamlit>=1.30,<2
+plotly>=5.18,<6
+pandas>=2.2,<3
+numpy>=1.26,<3
+scipy>=1.12,<2
