@@ -1,5 +1,6 @@
 # kicktipp-ev-engine
 
+[![Live demo](https://img.shields.io/badge/live%20demo-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://kicktipp-ev-engine.streamlit.app/)
 [![CI](https://github.com/louisgay/kicktipp-ev-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/louisgay/kicktipp-ev-engine/actions/workflows/ci.yml)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -10,13 +11,13 @@ pool (Kicktipp), with a behavioral-edge study of opponents' picks.**
 Quantitative, market-driven, and deliberately honest about what it can and cannot
 prove. All personal data has been pseudonymised; no pool member is identifiable.
 
-**▶ Interactive demo:** change the market inputs and watch the score matrix, the
-expected-points table and the EV-max pick recompute live through the real engine.
+Interactive demo (live): **https://kicktipp-ev-engine.streamlit.app/**
+Change the market inputs and watch the score matrix, the expected-points table and
+the EV-max pick recompute through the real engine. Run it locally with:
 ```bash
 pip install -e ".[app]" && streamlit run app/streamlit_app.py
 ```
-See [`app/README.md`](app/README.md) for the three tabs and one-click Streamlit
-Cloud deploy.
+See [`app/README.md`](app/README.md) for details and Streamlit Cloud deploy.
 
 ---
 
@@ -32,11 +33,11 @@ score" model would suggest.
 
 ![P(scoreline) vs E[points] for one match](docs/img/ev_matrix.png)
 
-*The whole idea in one picture. Left: the most **likely** scoreline (here 1-1, a
-draw). Right: the scoreline that maximises **expected points** (here 1-0). They
-disagree — because a non-exact draw scores only 2 with no goal-difference tier, the
-engine picks the decisive 1-0, not the likelier draw. We play the right-hand cell,
-never the left. Reproduce with `python -m analysis.figures.ev_matrix`.*
+*Left: the most likely scoreline (here 1-1, a draw). Right: the scoreline that
+maximises expected points (here 1-0). They disagree because a non-exact draw scores
+only 2 with no goal-difference tier, so the engine picks the decisive 1-0 rather
+than the likelier draw. The pick is the right-hand cell, not the left. Reproduce
+with `python -m analysis.figures.ev_matrix`.*
 
 This engine turns **market odds into fair probabilities** (removing the bookmaker
 margin), builds a full **Dixon-Coles score matrix** for each match, and picks the

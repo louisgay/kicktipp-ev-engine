@@ -1,9 +1,9 @@
 """Generate the README hero figure: P(scoreline) vs E[points] side by side.
 
-The whole thesis of the engine in one picture — the scoreline that is *most
-likely* (argmax of the probability matrix, left) is usually **not** the scoreline
-that *maximises expected pool points* under the asymmetric 4/3/2/0 rules (argmax
-of the EV table, right). We pick the right-hand cell, not the left-hand one.
+The scoreline that is most likely (argmax of the probability matrix, left) is
+usually not the scoreline that maximises expected pool points under the asymmetric
+4/3/2/0 rules (argmax of the EV table, right). The pick is the right-hand cell, not
+the left-hand one.
 
 Reproducible, offline: reads the banked market snapshot, reconstructs a
 Dixon-Coles score matrix from the de-vigged 1X2 + O/U 2.5 odds, then scores every
@@ -68,8 +68,8 @@ def main() -> None:
 
     fig, axes = plt.subplots(1, 2, figsize=(12, 5.4))
     panels = [
-        (axes[0], prob, "P(scoreline)  —  most likely", "Blues", ml, "%.1f%%", 100),
-        (axes[1], ev, "E[points]  —  what we actually pick", "YlOrRd", tuple(ev_pick), "%.2f", 1),
+        (axes[0], prob, "P(scoreline): most likely", "Blues", ml, "%.1f%%", 100),
+        (axes[1], ev, "E[points]: what we pick", "YlOrRd", tuple(ev_pick), "%.2f", 1),
     ]
     for ax, data, title, cmap, hi, fmt, scale in panels:
         im = ax.imshow(data, cmap=cmap, origin="upper")
@@ -90,7 +90,7 @@ def main() -> None:
     ml_s = f"{ml[0]}-{ml[1]}"
     ev_s = f"{ev_pick[0]}-{ev_pick[1]}"
     fig.suptitle(
-        f"{home} vs {away}   —   most likely = {ml_s},   EV-max pick = {ev_s} "
+        f"{home} vs {away}    most likely = {ml_s},    EV-max pick = {ev_s} "
         f"(E[pts] = {ev_val:.2f})",
         fontsize=13, y=1.0,
     )
